@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "brand": "Toyota",
+    "model": "Camry",
+    "year": 2022,
+    "price": 60,
+    "image": "https://images.unsplash.com/photo-1605559424843-9f4f9d9a6a5f",
+    "type": "Sedan",
+    "features": ["Automatic", "Hybrid", "Bluetooth", "AC"],
+    "available": true
+  },
+  {
+    "id": 2,
+    "brand": "Tesla",
+    "model": "Model 3",
+    "year": 2023,
+    "price": 120,
+    "image": "https://images.unsplash.com/photo-1618080573735-747e5a4c8ed5",
+    "type": "Electric",
+    "features": ["Autopilot", "Touchscreen", "Fast Charging", "GPS"],
+    "available": true
+  },
+  {
+    "id": 3,
+    "brand": "BMW",
+    "model": "X5",
+    "year": 2021,
+    "price": 100,
+    "image": "https://images.unsplash.com/photo-1624125639991-9bcd62d249b3",
+    "type": "SUV",
+    "features": ["Diesel", "All-Wheel Drive", "Leather Seats", "Sunroof"],
+    "available": false
+  },
+  {
+    "id": 4,
+    "brand": "Honda",
+    "model": "Civic",
+    "year": 2020,
+    "price": 55,
+    "image": "https://images.unsplash.com/photo-1617814076882-047d92d927b2",
+    "type": "Sedan",
+    "features": ["Manual", "Gasoline", "AC", "Cruise Control"],
+    "available": true
+  },
+  {
+    "id": 5,
+    "brand": "Ford",
+    "model": "Mustang",
+    "year": 2023,
+    "price": 150,
+    "image": "https://images.unsplash.com/photo-1502877338535-766e1452684a",
+    "type": "Sports",
+    "features": ["Gasoline", "Convertible", "Premium Audio", "Leather"],
+    "available": true
+  },
+  {
+    "id": 6,
+    "brand": "Hyundai",
+    "model": "Elantra",
+    "year": 2021,
+    "price": 50,
+    "image": "https://images.unsplash.com/photo-1583121274602-3e2820c69888",
+    "type": "Sedan",
+    "features": ["Automatic", "Gasoline", "Bluetooth", "AC"],
+    "available": true
+  },
+  {
+    "id": 7,
+    "brand": "Audi",
+    "model": "A6",
+    "year": 2022,
+    "price": 130,
+    "image": "https://images.unsplash.com/photo-1601924582971-df7d62a5f04a",
+    "type": "Luxury",
+    "features": ["Automatic", "Petrol", "Leather Seats", "Sunroof"],
+    "available": true
+  },
+  {
+    "id": 8,
+    "brand": "Mercedes",
+    "model": "C-Class",
+    "year": 2021,
+    "price": 140,
+    "image": "https://images.unsplash.com/photo-1600047500547-45e04b4d7c35",
+    "type": "Luxury",
+    "features": ["Automatic", "Petrol", "Touchscreen", "GPS"],
+    "available": false
+  },
+  {
+    "id": 9,
+    "brand": "Kia",
+    "model": "Sportage",
+    "year": 2022,
+    "price": 80,
+    "image": "https://images.unsplash.com/photo-1620891549027-4e9e5cfa4ce7",
+    "type": "SUV",
+    "features": ["Automatic", "Hybrid", "Bluetooth", "All-Wheel Drive"],
+    "available": true
+  },
+  {
+    "id": 10,
+    "brand": "Chevrolet",
+    "model": "Impala",
+    "year": 2020,
+    "price": 65,
+    "image": "https://images.unsplash.com/photo-1583267746896-761f3a5d84e0",
+    "type": "Sedan",
+    "features": ["Automatic", "Gasoline", "AC", "Bluetooth"],
+    "available": true
+  },
+  {
+    "id": 11,
+    "brand": "Jeep",
+    "model": "Wrangler",
+    "year": 2023,
+    "price": 110,
+    "image": "https://images.unsplash.com/photo-1597001020484-5eec2a3f8b82",
+    "type": "Off-Road",
+    "features": ["4x4", "Convertible", "All-Terrain Tires", "Navigation"],
+    "available": true
+  },
+  {
+    "id": 12,
+    "brand": "Nissan",
+    "model": "Altima",
+    "year": 2021,
+    "price": 60,
+    "image": "https://images.unsplash.com/photo-1605559424843-9f4f9d9a6a5f",
+    "type": "Sedan",
+    "features": ["Automatic", "Gasoline", "Cruise Control", "Bluetooth"],
+    "available": true
+  },
+  {
+    "id": 13,
+    "brand": "Volkswagen",
+    "model": "Passat",
+    "year": 2021,
+    "price": 70,
+    "image": "https://images.unsplash.com/photo-1616788563939-cb4c18d4a14c",
+    "type": "Sedan",
+    "features": ["Automatic", "Diesel", "AC", "Bluetooth"],
+    "available": true
+  },
+  {
+    "id": 14,
+    "brand": "Mazda",
+    "model": "CX-5",
+    "year": 2022,
+    "price": 90,
+    "image": "https://images.unsplash.com/photo-1620891549027-4e9e5cfa4ce7",
+    "type": "SUV",
+    "features": ["Automatic", "Petrol", "All-Wheel Drive", "Cruise Control"],
+    "available": true
+  },
+  {
+    "id": 15,
+    "brand": "Volvo",
+    "model": "XC90",
+    "year": 2023,
+    "price": 150,
+    "image": "https://images.unsplash.com/photo-1618080573735-747e5a4c8ed5",
+    "type": "Luxury SUV",
+    "features": ["Automatic", "Hybrid", "Leather Seats", "GPS"],
+    "available": true
+  },
+  {
+    "id": 16,
+    "brand": "Porsche",
+    "model": "911",
+    "year": 2023,
+    "price": 200,
+    "image": "https://images.unsplash.com/photo-1602872029461-3c67efbdb58a",
+    "type": "Sports",
+    "features": ["Petrol", "Convertible", "Premium Audio", "Navigation"],
+    "available": true
+  },
+  {
+    "id": 17,
+    "brand": "Lexus",
+    "model": "ES 350",
+    "year": 2022,
+    "price": 125,
+    "image": "https://images.unsplash.com/photo-1581873372797-4f9f0dbf4563",
+    "type": "Luxury Sedan",
+    "features": ["Automatic", "Hybrid", "Leather Seats", "Sunroof"],
+    "available": true
+  },
+  {
+    "id": 18,
+    "brand": "Jaguar",
+    "model": "F-Type",
+    "year": 2023,
+    "price": 180,
+    "image": "https://images.unsplash.com/photo-1616788563939-cb4c18d4a14c",
+    "type": "Sports",
+    "features": ["Automatic", "Petrol", "Convertible", "GPS"],
+    "available": true
+  },
+  {
+    "id": 19,
+    "brand": "Range Rover",
+    "model": "Evoque",
+    "year": 2022,
+    "price": 170,
+    "image": "https://images.unsplash.com/photo-1618080573735-747e5a4c8ed5",
+    "type": "SUV",
+    "features": ["Automatic", "Diesel", "All-Wheel Drive", "Luxury Interior"],
+    "available": true
+  },
+  {
+    "id": 20,
+    "brand": "Chevrolet",
+    "model": "Camaro",
+    "year": 2023,
+    "price": 160,
+    "image": "https://images.unsplash.com/photo-1502877338535-766e1452684a",
+    "type": "Sports",
+    "features": ["Gasoline", "Convertible", "Premium Audio", "Navigation"],
+    "available": true
+  }
+]
