@@ -19,6 +19,42 @@
           { "id": 4, "name": "Toyota QuickFix - Kochi", "phone": "+91 9876512345" }
     ]
        },
+       {
+       "name":"Kannur",
+       "support":[
+        { "id": 1, "name": "Toyota Service Center - Kochi", "phone": "+91 9876543210" },
+          { "id": 2, "name": "Toyota Express Garage - Kochi", "phone": "+91 9123456789" },
+          { "id": 3, "name": "Toyota AutoCare - Kochi", "phone": "+91 9988771122" },
+          { "id": 4, "name": "Toyota QuickFix - Kochi", "phone": "+91 9876512345" }
+    ]
+       },
+       {
+       "name":"Kasargod",
+       "support":[
+        { "id": 1, "name": "Toyota Service Center - Kochi", "phone": "+91 9876543210" },
+          { "id": 2, "name": "Toyota Express Garage - Kochi", "phone": "+91 9123456789" },
+          { "id": 3, "name": "Toyota AutoCare - Kochi", "phone": "+91 9988771122" },
+          { "id": 4, "name": "Toyota QuickFix - Kochi", "phone": "+91 9876512345" }
+    ]
+       },
+       {
+       "name":"Idukki",
+       "support":[
+        { "id": 1, "name": "Toyota Service Center - Kochi", "phone": "+91 9876543210" },
+          { "id": 2, "name": "Toyota Express Garage - Kochi", "phone": "+91 9123456789" },
+          { "id": 3, "name": "Toyota AutoCare - Kochi", "phone": "+91 9988771122" },
+          { "id": 4, "name": "Toyota QuickFix - Kochi", "phone": "+91 9876512345" }
+    ]
+       },
+       {
+       "name":"Palakkad",
+       "support":[
+        { "id": 1, "name": "Toyota Service Center - Kochi", "phone": "+91 9876543210" },
+          { "id": 2, "name": "Toyota Express Garage - Kochi", "phone": "+91 9123456789" },
+          { "id": 3, "name": "Toyota AutoCare - Kochi", "phone": "+91 9988771122" },
+          { "id": 4, "name": "Toyota QuickFix - Kochi", "phone": "+91 9876512345" }
+    ]
+       },
         {
         "name": "Trivandrum",
         "support": [
@@ -72,8 +108,26 @@
     "type": "SUV",
     "features": ["Diesel", "All-Wheel Drive", "Leather Seats", "Sunroof"],
     "available": false,
-    "locations": ["Kochi", "Trivandrum", "Calicut","pathanamthitta","Kottayam","Idukki","Kollam",
-      "Alappuzha","palakkad","Thrissur","Kannur","Kasargod","Ernakulam"]
+    "locations": [
+       {
+       "name":"Kochi",
+       "support":[
+        { "id": 1, "name": "Tesla Service Center - Kochi", "phone": "+91 9876543210" },
+          { "id": 2, "name": "Tesla Express Garage - Kochi", "phone": "+91 9123456789" },
+          { "id": 3, "name": "Tesla AutoCare - Kochi", "phone": "+91 9988771122" },
+          { "id": 4, "name": "Tesla QuickFix - Kochi", "phone": "+91 9876512345" }
+    ]
+       },
+        {
+        "name": "Trivandrum",
+        "support": [
+          { "id": 1, "name": "Tesla Service Hub - Trivandrum", "phone": "+91 9484848484" },
+          { "id": 2, "name": "Tesla AutoFix - Trivandrum", "phone": "+91 9585858585" },
+          { "id": 3, "name": "Tesla Garage Pro - Trivandrum", "phone": "+91 9686868686" },
+          { "id": 4, "name": "Tesla QuickService - Trivandrum", "phone": "+91 9787878787" }
+        ]
+      }
+      ]
   },
   {
     "id": 4,
@@ -84,7 +138,28 @@
     "image": "https://images.unsplash.com/photo-1706495227612-fde52c357c69?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG9uZGElMjBjYXJ8ZW58MHx8MHx8fDA%3D",
     "type": "Sedan",
     "features": ["Manual", "Gasoline", "AC", "Cruise Control"],
-    "available": true
+    "available": true,
+     "locations": [
+       {
+       "name":"Kochi",
+       "support":[
+        { "id": 1, "name": "Tesla Service Center - Kochi", "phone": "+91 9876543210" },
+          { "id": 2, "name": "Tesla Express Garage - Kochi", "phone": "+91 9123456789" },
+          { "id": 3, "name": "Tesla AutoCare - Kochi", "phone": "+91 9988771122" },
+          { "id": 4, "name": "Tesla QuickFix - Kochi", "phone": "+91 9876512345" }
+    ]
+       },
+        {
+        "name": "Trivandrum",
+        "support": [
+          { "id": 1, "name": "Tesla Service Hub - Trivandrum", "phone": "+91 9484848484" },
+          { "id": 2, "name": "Tesla AutoFix - Trivandrum", "phone": "+91 9585858585" },
+          { "id": 3, "name": "Tesla Garage Pro - Trivandrum", "phone": "+91 9686868686" },
+          { "id": 4, "name": "Tesla QuickService - Trivandrum", "phone": "+91 9787878787" }
+        ]
+      }
+      ]
+    
   },
   {
     "id": 5,
@@ -96,6 +171,26 @@
     "type": "Sports",
     "features": ["Gasoline", "Convertible", "Premium Audio", "Leather"],
     "available": true,
+     "locations": [
+       {
+       "name":"Kochi",
+       "support":[
+        { "id": 1, "name": "Tesla Service Center - Kochi", "phone": "+91 9876543210" },
+          { "id": 2, "name": "Tesla Express Garage - Kochi", "phone": "+91 9123456789" },
+          { "id": 3, "name": "Tesla AutoCare - Kochi", "phone": "+91 9988771122" },
+          { "id": 4, "name": "Tesla QuickFix - Kochi", "phone": "+91 9876512345" }
+    ]
+       },
+        {
+        "name": "Trivandrum",
+        "support": [
+          { "id": 1, "name": "Tesla Service Hub - Trivandrum", "phone": "+91 9484848484" },
+          { "id": 2, "name": "Tesla AutoFix - Trivandrum", "phone": "+91 9585858585" },
+          { "id": 3, "name": "Tesla Garage Pro - Trivandrum", "phone": "+91 9686868686" },
+          { "id": 4, "name": "Tesla QuickService - Trivandrum", "phone": "+91 9787878787" }
+        ]
+      }
+      ]
         "locations": ["Kochi", "Trivandrum", "Calicut","pathanamthitta","Kottayam","Idukki","Kollam",
       "Alappuzha","palakkad","Thrissur","Kannur","Kasargod","Ernakulam"]
   },
@@ -109,6 +204,26 @@
     "type": "Sedan",
     "features": ["Automatic", "Gasoline", "Bluetooth", "AC"],
     "available": true,
+     "locations": [
+       {
+       "name":"Kochi",
+       "support":[
+        { "id": 1, "name": "Tesla Service Center - Kochi", "phone": "+91 9876543210" },
+          { "id": 2, "name": "Tesla Express Garage - Kochi", "phone": "+91 9123456789" },
+          { "id": 3, "name": "Tesla AutoCare - Kochi", "phone": "+91 9988771122" },
+          { "id": 4, "name": "Tesla QuickFix - Kochi", "phone": "+91 9876512345" }
+    ]
+       },
+        {
+        "name": "Trivandrum",
+        "support": [
+          { "id": 1, "name": "Tesla Service Hub - Trivandrum", "phone": "+91 9484848484" },
+          { "id": 2, "name": "Tesla AutoFix - Trivandrum", "phone": "+91 9585858585" },
+          { "id": 3, "name": "Tesla Garage Pro - Trivandrum", "phone": "+91 9686868686" },
+          { "id": 4, "name": "Tesla QuickService - Trivandrum", "phone": "+91 9787878787" }
+        ]
+      }
+      ]
         "locations": ["Kochi", "Trivandrum", "Calicut","pathanamthitta","Kottayam","Idukki","Kollam",
       "Alappuzha","palakkad","Thrissur","Kannur","Kasargod","Ernakulam"]
   },
@@ -122,6 +237,26 @@
     "type": "Luxury",
     "features": ["Automatic", "Petrol", "Leather Seats", "Sunroof"],
     "available": true,
+     "locations": [
+       {
+       "name":"Kochi",
+       "support":[
+        { "id": 1, "name": "Tesla Service Center - Kochi", "phone": "+91 9876543210" },
+          { "id": 2, "name": "Tesla Express Garage - Kochi", "phone": "+91 9123456789" },
+          { "id": 3, "name": "Tesla AutoCare - Kochi", "phone": "+91 9988771122" },
+          { "id": 4, "name": "Tesla QuickFix - Kochi", "phone": "+91 9876512345" }
+    ]
+       },
+        {
+        "name": "Trivandrum",
+        "support": [
+          { "id": 1, "name": "Tesla Service Hub - Trivandrum", "phone": "+91 9484848484" },
+          { "id": 2, "name": "Tesla AutoFix - Trivandrum", "phone": "+91 9585858585" },
+          { "id": 3, "name": "Tesla Garage Pro - Trivandrum", "phone": "+91 9686868686" },
+          { "id": 4, "name": "Tesla QuickService - Trivandrum", "phone": "+91 9787878787" }
+        ]
+      }
+      ]
         "locations": ["Kochi", "Trivandrum", "Calicut","pathanamthitta","Kottayam","Idukki","Kollam",
       "Alappuzha","palakkad","Thrissur","Kannur","Kasargod","Ernakulam"]
   },
@@ -148,6 +283,26 @@
     "type": "SUV",
     "features": ["Automatic", "Hybrid", "Bluetooth", "All-Wheel Drive"],
     "available": true,
+     "locations": [
+       {
+       "name":"Kochi",
+       "support":[
+        { "id": 1, "name": "Tesla Service Center - Kochi", "phone": "+91 9876543210" },
+          { "id": 2, "name": "Tesla Express Garage - Kochi", "phone": "+91 9123456789" },
+          { "id": 3, "name": "Tesla AutoCare - Kochi", "phone": "+91 9988771122" },
+          { "id": 4, "name": "Tesla QuickFix - Kochi", "phone": "+91 9876512345" }
+    ]
+       },
+        {
+        "name": "Trivandrum",
+        "support": [
+          { "id": 1, "name": "Tesla Service Hub - Trivandrum", "phone": "+91 9484848484" },
+          { "id": 2, "name": "Tesla AutoFix - Trivandrum", "phone": "+91 9585858585" },
+          { "id": 3, "name": "Tesla Garage Pro - Trivandrum", "phone": "+91 9686868686" },
+          { "id": 4, "name": "Tesla QuickService - Trivandrum", "phone": "+91 9787878787" }
+        ]
+      }
+      ]
         "locations": ["Kochi", "Trivandrum", "Calicut","pathanamthitta","Kottayam","Idukki","Kollam",
       "Alappuzha","palakkad","Thrissur","Kannur","Kasargod","Ernakulam"]
   },
@@ -161,6 +316,26 @@
     "type": "Sedan",
     "features": ["Automatic", "Gasoline", "AC", "Bluetooth"],
     "available": true,
+     "locations": [
+       {
+       "name":"Kochi",
+       "support":[
+        { "id": 1, "name": "Tesla Service Center - Kochi", "phone": "+91 9876543210" },
+          { "id": 2, "name": "Tesla Express Garage - Kochi", "phone": "+91 9123456789" },
+          { "id": 3, "name": "Tesla AutoCare - Kochi", "phone": "+91 9988771122" },
+          { "id": 4, "name": "Tesla QuickFix - Kochi", "phone": "+91 9876512345" }
+    ]
+       },
+        {
+        "name": "Trivandrum",
+        "support": [
+          { "id": 1, "name": "Tesla Service Hub - Trivandrum", "phone": "+91 9484848484" },
+          { "id": 2, "name": "Tesla AutoFix - Trivandrum", "phone": "+91 9585858585" },
+          { "id": 3, "name": "Tesla Garage Pro - Trivandrum", "phone": "+91 9686868686" },
+          { "id": 4, "name": "Tesla QuickService - Trivandrum", "phone": "+91 9787878787" }
+        ]
+      }
+      ]
         "locations": ["Kochi", "Trivandrum", "Calicut","pathanamthitta","Kottayam","Idukki","Kollam",
       "Alappuzha","palakkad","Thrissur","Kannur","Kasargod","Ernakulam"]
   },
@@ -187,6 +362,26 @@
     "type": "Sedan",
     "features": ["Automatic", "Gasoline", "Cruise Control", "Bluetooth"],
     "available": true,
+     "locations": [
+       {
+       "name":"Kochi",
+       "support":[
+        { "id": 1, "name": "Tesla Service Center - Kochi", "phone": "+91 9876543210" },
+          { "id": 2, "name": "Tesla Express Garage - Kochi", "phone": "+91 9123456789" },
+          { "id": 3, "name": "Tesla AutoCare - Kochi", "phone": "+91 9988771122" },
+          { "id": 4, "name": "Tesla QuickFix - Kochi", "phone": "+91 9876512345" }
+    ]
+       },
+        {
+        "name": "Trivandrum",
+        "support": [
+          { "id": 1, "name": "Tesla Service Hub - Trivandrum", "phone": "+91 9484848484" },
+          { "id": 2, "name": "Tesla AutoFix - Trivandrum", "phone": "+91 9585858585" },
+          { "id": 3, "name": "Tesla Garage Pro - Trivandrum", "phone": "+91 9686868686" },
+          { "id": 4, "name": "Tesla QuickService - Trivandrum", "phone": "+91 9787878787" }
+        ]
+      }
+      ]
         "locations": ["Kochi", "Trivandrum", "Calicut","pathanamthitta","Kottayam","Idukki","Kollam",
       "Alappuzha","palakkad","Thrissur","Kannur"]
   },
@@ -200,6 +395,26 @@
     "type": "Sedan",
     "features": ["Automatic", "Diesel", "AC", "Bluetooth"],
     "available": true,
+     "locations": [
+       {
+       "name":"Kochi",
+       "support":[
+        { "id": 1, "name": "Tesla Service Center - Kochi", "phone": "+91 9876543210" },
+          { "id": 2, "name": "Tesla Express Garage - Kochi", "phone": "+91 9123456789" },
+          { "id": 3, "name": "Tesla AutoCare - Kochi", "phone": "+91 9988771122" },
+          { "id": 4, "name": "Tesla QuickFix - Kochi", "phone": "+91 9876512345" }
+    ]
+       },
+        {
+        "name": "Trivandrum",
+        "support": [
+          { "id": 1, "name": "Tesla Service Hub - Trivandrum", "phone": "+91 9484848484" },
+          { "id": 2, "name": "Tesla AutoFix - Trivandrum", "phone": "+91 9585858585" },
+          { "id": 3, "name": "Tesla Garage Pro - Trivandrum", "phone": "+91 9686868686" },
+          { "id": 4, "name": "Tesla QuickService - Trivandrum", "phone": "+91 9787878787" }
+        ]
+      }
+      ]
         "locations": ["Kochi", "Trivandrum", "Calicut","pathanamthitta","Kottayam","Idukki","Kollam",
       "Alappuzha","palakkad","Thrissur","Kannur","Kasargod","Ernakulam"]
   },
@@ -213,6 +428,26 @@
     "type": "SUV",
     "features": ["Automatic", "Petrol", "All-Wheel Drive", "Cruise Control"],
     "available": true,
+     "locations": [
+       {
+       "name":"Kochi",
+       "support":[
+        { "id": 1, "name": "Tesla Service Center - Kochi", "phone": "+91 9876543210" },
+          { "id": 2, "name": "Tesla Express Garage - Kochi", "phone": "+91 9123456789" },
+          { "id": 3, "name": "Tesla AutoCare - Kochi", "phone": "+91 9988771122" },
+          { "id": 4, "name": "Tesla QuickFix - Kochi", "phone": "+91 9876512345" }
+    ]
+       },
+        {
+        "name": "Trivandrum",
+        "support": [
+          { "id": 1, "name": "Tesla Service Hub - Trivandrum", "phone": "+91 9484848484" },
+          { "id": 2, "name": "Tesla AutoFix - Trivandrum", "phone": "+91 9585858585" },
+          { "id": 3, "name": "Tesla Garage Pro - Trivandrum", "phone": "+91 9686868686" },
+          { "id": 4, "name": "Tesla QuickService - Trivandrum", "phone": "+91 9787878787" }
+        ]
+      }
+      ]
         "locations": ["Kochi", "Trivandrum", "Calicut","Idukki","Kollam",
       "Alappuzha","palakkad","Thrissur","Kannur","Kasargod","Ernakulam"]
   },
@@ -226,6 +461,26 @@
     "type": "Luxury SUV",
     "features": ["Automatic", "Hybrid", "Leather Seats", "GPS"],
     "available": true,
+     "locations": [
+       {
+       "name":"Kochi",
+       "support":[
+        { "id": 1, "name": "Tesla Service Center - Kochi", "phone": "+91 9876543210" },
+          { "id": 2, "name": "Tesla Express Garage - Kochi", "phone": "+91 9123456789" },
+          { "id": 3, "name": "Tesla AutoCare - Kochi", "phone": "+91 9988771122" },
+          { "id": 4, "name": "Tesla QuickFix - Kochi", "phone": "+91 9876512345" }
+    ]
+       },
+        {
+        "name": "Trivandrum",
+        "support": [
+          { "id": 1, "name": "Tesla Service Hub - Trivandrum", "phone": "+91 9484848484" },
+          { "id": 2, "name": "Tesla AutoFix - Trivandrum", "phone": "+91 9585858585" },
+          { "id": 3, "name": "Tesla Garage Pro - Trivandrum", "phone": "+91 9686868686" },
+          { "id": 4, "name": "Tesla QuickService - Trivandrum", "phone": "+91 9787878787" }
+        ]
+      }
+      ]
         "locations": ["Kochi", "Trivandrum", "Calicut","pathanamthitta","Kottayam","Idukki","Kollam",
       "Alappuzha","palakkad","Thrissur","Kannur","Kasargod","Ernakulam"]
   },
@@ -239,6 +494,26 @@
     "type": "Sports",
     "features": ["Petrol", "Convertible", "Premium Audio", "Navigation"],
     "available": true,
+     "locations": [
+       {
+       "name":"Kochi",
+       "support":[
+        { "id": 1, "name": "Tesla Service Center - Kochi", "phone": "+91 9876543210" },
+          { "id": 2, "name": "Tesla Express Garage - Kochi", "phone": "+91 9123456789" },
+          { "id": 3, "name": "Tesla AutoCare - Kochi", "phone": "+91 9988771122" },
+          { "id": 4, "name": "Tesla QuickFix - Kochi", "phone": "+91 9876512345" }
+    ]
+       },
+        {
+        "name": "Trivandrum",
+        "support": [
+          { "id": 1, "name": "Tesla Service Hub - Trivandrum", "phone": "+91 9484848484" },
+          { "id": 2, "name": "Tesla AutoFix - Trivandrum", "phone": "+91 9585858585" },
+          { "id": 3, "name": "Tesla Garage Pro - Trivandrum", "phone": "+91 9686868686" },
+          { "id": 4, "name": "Tesla QuickService - Trivandrum", "phone": "+91 9787878787" }
+        ]
+      }
+      ]
         "locations": ["Kochi", "Trivandrum", "Calicut","pathanamthitta","Kottayam","Idukki","Kollam",
       "Alappuzha","palakkad","Thrissur","Kannur","Kasargod","Ernakulam"]
   },
@@ -252,6 +527,26 @@
     "type": "Luxury Sedan",
     "features": ["Automatic", "Hybrid", "Leather Seats", "Sunroof"],
     "available": true,
+     "locations": [
+       {
+       "name":"Kochi",
+       "support":[
+        { "id": 1, "name": "Tesla Service Center - Kochi", "phone": "+91 9876543210" },
+          { "id": 2, "name": "Tesla Express Garage - Kochi", "phone": "+91 9123456789" },
+          { "id": 3, "name": "Tesla AutoCare - Kochi", "phone": "+91 9988771122" },
+          { "id": 4, "name": "Tesla QuickFix - Kochi", "phone": "+91 9876512345" }
+    ]
+       },
+        {
+        "name": "Trivandrum",
+        "support": [
+          { "id": 1, "name": "Tesla Service Hub - Trivandrum", "phone": "+91 9484848484" },
+          { "id": 2, "name": "Tesla AutoFix - Trivandrum", "phone": "+91 9585858585" },
+          { "id": 3, "name": "Tesla Garage Pro - Trivandrum", "phone": "+91 9686868686" },
+          { "id": 4, "name": "Tesla QuickService - Trivandrum", "phone": "+91 9787878787" }
+        ]
+      }
+      ]
         "locations": ["Kochi", "Trivandrum", "Calicut","pathanamthitta","Kottayam","Idukki","Kollam",
       "Alappuzha","palakkad","Thrissur","Kannur","Kasargod","Ernakulam"]
   },
@@ -265,6 +560,26 @@
     "type": "Sports",
     "features": ["Automatic", "Petrol", "Convertible", "GPS"],
     "available": true,
+     "locations": [
+       {
+       "name":"Kochi",
+       "support":[
+        { "id": 1, "name": "Tesla Service Center - Kochi", "phone": "+91 9876543210" },
+          { "id": 2, "name": "Tesla Express Garage - Kochi", "phone": "+91 9123456789" },
+          { "id": 3, "name": "Tesla AutoCare - Kochi", "phone": "+91 9988771122" },
+          { "id": 4, "name": "Tesla QuickFix - Kochi", "phone": "+91 9876512345" }
+    ]
+       },
+        {
+        "name": "Trivandrum",
+        "support": [
+          { "id": 1, "name": "Tesla Service Hub - Trivandrum", "phone": "+91 9484848484" },
+          { "id": 2, "name": "Tesla AutoFix - Trivandrum", "phone": "+91 9585858585" },
+          { "id": 3, "name": "Tesla Garage Pro - Trivandrum", "phone": "+91 9686868686" },
+          { "id": 4, "name": "Tesla QuickService - Trivandrum", "phone": "+91 9787878787" }
+        ]
+      }
+      ]
         "locations": ["Kochi", "Trivandrum", "Calicut","pathanamthitta","Kottayam","Idukki","Kollam",
       "Alappuzha","palakkad","Thrissur","Kannur","Kasargod","Ernakulam"]
   },
@@ -278,8 +593,27 @@
     "type": "SUV",
     "features": ["Automatic", "Diesel", "All-Wheel Drive", "Luxury Interior"],
     "available": true,
-        "locations": ["Kochi", "Trivandrum", "Calicut","pathanamthitta","Kottayam","Idukki","Kollam",
-      "Alappuzha","palakkad","Thrissur","Kannur","Kasargod","Ernakulam"]
+     "locations": [
+       {
+       "name":"Kochi",
+       "support":[
+        { "id": 1, "name": "Tesla Service Center - Kochi", "phone": "+91 9876543210" },
+          { "id": 2, "name": "Tesla Express Garage - Kochi", "phone": "+91 9123456789" },
+          { "id": 3, "name": "Tesla AutoCare - Kochi", "phone": "+91 9988771122" },
+          { "id": 4, "name": "Tesla QuickFix - Kochi", "phone": "+91 9876512345" }
+    ]
+       },
+        {
+        "name": "Trivandrum",
+        "support": [
+          { "id": 1, "name": "Tesla Service Hub - Trivandrum", "phone": "+91 9484848484" },
+          { "id": 2, "name": "Tesla AutoFix - Trivandrum", "phone": "+91 9585858585" },
+          { "id": 3, "name": "Tesla Garage Pro - Trivandrum", "phone": "+91 9686868686" },
+          { "id": 4, "name": "Tesla QuickService - Trivandrum", "phone": "+91 9787878787" }
+        ]
+      }
+      ]
+        
   },
   {
     "id": 20,
@@ -291,7 +625,26 @@
     "type": "Sports",
     "features": ["Gasoline", "Convertible", "Premium Audio", "Navigation"],
     "available": true,
-        "locations": ["Kochi", "Trivandrum", "Calicut","pathanamthitta","Kottayam","Idukki","Kollam",
-      "Alappuzha","palakkad","Thrissur","Kannur","Kasargod","Ernakulam"]
+     "locations": [
+       {
+       "name":"Kochi",
+       "support":[
+        { "id": 1, "name": "Chevrolet Service Center - Kochi", "phone": "+91 9876543210" },
+          { "id": 2, "name": "Chevrolet Express Garage - Kochi", "phone": "+91 9123456789" },
+          { "id": 3, "name": "Chevrolet AutoCare - Kochi", "phone": "+91 9988771122" },
+          { "id": 4, "name": "Chevrolet QuickFix - Kochi", "phone": "+91 9876512345" }
+    ]
+       },
+        {
+        "name": "Trivandrum",
+        "support": [
+          { "id": 1, "name": "Chevrolet Service Hub - Trivandrum", "phone": "+91 9484848484" },
+          { "id": 2, "name": "TChevrolet AutoFix - Trivandrum", "phone": "+91 9585858585" },
+          { "id": 3, "name": "Chevrolet Garage Pro - Trivandrum", "phone": "+91 9686868686" },
+          { "id": 4, "name": "Chevrolet QuickService - Trivandrum", "phone": "+91 9787878787" }
+        ]
+      }
+      ]
+        
   }
 ]
