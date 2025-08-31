@@ -1,634 +1,627 @@
-[
-  {
-    "id": 1,
-    "brand": "Toyota",
-    "model": "Camry",
-    "year": 2022,
-    "price": 60,
-    "image": "https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dG95b3RhJTIwY2Ftcnl8ZW58MHx8MHx8fDA%3D",
-    "type": "Sedan",
-    "features": ["Automatic", "Hybrid", "Bluetooth", "AC"],
-    "available": true,
-     "locations": [
-       {
-       "name":"Kochi",
-       "support":[
-        { "id": 1, "name": "Toyota Service Center - Kochi", "phone": "+91 9876543210" },
-          { "id": 2, "name": "Toyota Express Garage - Kochi", "phone": "+91 9123456789" },
-          { "id": 3, "name": "Toyota AutoCare - Kochi", "phone": "+91 9988771122" },
-          { "id": 4, "name": "Toyota QuickFix - Kochi", "phone": "+91 9876512345" }
-    ]
-       },
-       {
-       "name":"Kannur",
-       "support":[
-        { "id": 1, "name": "Toyota Service Center - Kochi", "phone": "+91 9876543210" },
-          { "id": 2, "name": "Toyota Express Garage - Kochi", "phone": "+91 9123456789" },
-          { "id": 3, "name": "Toyota AutoCare - Kochi", "phone": "+91 9988771122" },
-          { "id": 4, "name": "Toyota QuickFix - Kochi", "phone": "+91 9876512345" }
-    ]
-       },
-       {
-       "name":"Kasargod",
-       "support":[
-        { "id": 1, "name": "Toyota Service Center - Kochi", "phone": "+91 9876543210" },
-          { "id": 2, "name": "Toyota Express Garage - Kochi", "phone": "+91 9123456789" },
-          { "id": 3, "name": "Toyota AutoCare - Kochi", "phone": "+91 9988771122" },
-          { "id": 4, "name": "Toyota QuickFix - Kochi", "phone": "+91 9876512345" }
-    ]
-       },
-       {
-       "name":"Idukki",
-       "support":[
-        { "id": 1, "name": "Toyota Service Center - Kochi", "phone": "+91 9876543210" },
-          { "id": 2, "name": "Toyota Express Garage - Kochi", "phone": "+91 9123456789" },
-          { "id": 3, "name": "Toyota AutoCare - Kochi", "phone": "+91 9988771122" },
-          { "id": 4, "name": "Toyota QuickFix - Kochi", "phone": "+91 9876512345" }
-    ]
-       },
-       {
-       "name":"Palakkad",
-       "support":[
-        { "id": 1, "name": "Toyota Service Center - Kochi", "phone": "+91 9876543210" },
-          { "id": 2, "name": "Toyota Express Garage - Kochi", "phone": "+91 9123456789" },
-          { "id": 3, "name": "Toyota AutoCare - Kochi", "phone": "+91 9988771122" },
-          { "id": 4, "name": "Toyota QuickFix - Kochi", "phone": "+91 9876512345" }
-    ]
-       },
+{
+  "cars": [
+    {
+      "id": 1,
+      "brand": "Tesla",
+      "model": "Model S",
+      "year": 2023,
+      "price": 5000,
+      "image": "https://images.unsplash.com/photo-1511390164239-92e528f23927",
+      "type": "Electric",
+      "features": ["Automatic", "Electric", "GPS", "Luxury"],
+      "available": true,
+      "locations": [
         {
-        "name": "Trivandrum",
-        "support": [
-          { "id": 1, "name": "BMW Service Hub - Trivandrum", "phone": "+91 9484848484" },
-          { "id": 2, "name": "BMW AutoFix - Trivandrum", "phone": "+91 9585858585" },
-          { "id": 3, "name": "BMW Garage Pro - Trivandrum", "phone": "+91 9686868686" },
-          { "id": 4, "name": "BMW QuickService - Trivandrum", "phone": "+91 9787878787" }
-        ]
-      }
-      ]
-  },
-  {
-    "id": 2,
-    "brand": "Tesla",
-    "model": "Model 3",
-    "year": 2023,
-    "price": 120,
-    "image": "https://images.unsplash.com/photo-1625062516523-9a93c8c1464c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NnxoWkIzSjhTdndXa3x8ZW58MHx8fHx8",
-    "type": "Electric",
-    "features": ["Autopilot", "Touchscreen", "Fast Charging", "GPS"],
-    "available": true,
-     "locations": [
-       {
-       "name":"Kochi",
-       "support":[
-        { "id": 1, "name": "Tesla Service Center - Kochi", "phone": "+91 9876543210" },
-          { "id": 2, "name": "Tesla Express Garage - Kochi", "phone": "+91 9123456789" },
-          { "id": 3, "name": "Tesla AutoCare - Kochi", "phone": "+91 9988771122" },
-          { "id": 4, "name": "Tesla QuickFix - Kochi", "phone": "+91 9876512345" }
-    ]
-       },
+          "name": "Kochi",
+          "support": [
+            { "id": 1, "name": "Tesla Service Center - Kochi", "phone": "+91 9876543210" },
+            { "id": 2, "name": "Tesla Express Garage - Kochi", "phone": "+91 9123456789" },
+            { "id": 3, "name": "Tesla AutoCare - Kochi", "phone": "+91 9988771122" },
+            { "id": 4, "name": "Tesla QuickFix - Kochi", "phone": "+91 9876512345" }
+          ]
+        },
         {
-        "name": "Trivandrum",
-        "support": [
-          { "id": 1, "name": "Tesla Service Hub - Trivandrum", "phone": "+91 9484848484" },
-          { "id": 2, "name": "Tesla AutoFix - Trivandrum", "phone": "+91 9585858585" },
-          { "id": 3, "name": "Tesla Garage Pro - Trivandrum", "phone": "+91 9686868686" },
-          { "id": 4, "name": "Tesla QuickService - Trivandrum", "phone": "+91 9787878787" }
-        ]
-      }
+          "name": "Trivandrum",
+          "support": [
+            { "id": 1, "name": "Tesla Service Hub - Trivandrum", "phone": "+91 9484848484" },
+            { "id": 2, "name": "Tesla AutoFix - Trivandrum", "phone": "+91 9585858585" },
+            { "id": 3, "name": "Tesla Garage Pro - Trivandrum", "phone": "+91 9686868686" },
+            { "id": 4, "name": "Tesla QuickService - Trivandrum", "phone": "+91 9787878787" }
+          ]
+        }
       ]
-    
-  },
-  {
-    "id": 3,
-    "brand": "BMW",
-    "model": "X5",
-    "year": 2021,
-    "price": 100,
-    "image": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Ym13JTIwY2FyfGVufDB8fDB8fHww",
-    "type": "SUV",
-    "features": ["Diesel", "All-Wheel Drive", "Leather Seats", "Sunroof"],
-    "available": false,
-    "locations": [
-       {
-       "name":"Kochi",
-       "support":[
-        { "id": 1, "name": "Tesla Service Center - Kochi", "phone": "+91 9876543210" },
-          { "id": 2, "name": "Tesla Express Garage - Kochi", "phone": "+91 9123456789" },
-          { "id": 3, "name": "Tesla AutoCare - Kochi", "phone": "+91 9988771122" },
-          { "id": 4, "name": "Tesla QuickFix - Kochi", "phone": "+91 9876512345" }
-    ]
-       },
+    },
+    {
+      "id": 2,
+      "brand": "BMW",
+      "model": "X5",
+      "year": 2022,
+      "price": 4000,
+      "image": "https://images.unsplash.com/photo-1583121274602-3e2820c69888",
+      "type": "SUV",
+      "features": ["Diesel", "Automatic", "Sunroof", "Luxury"],
+      "available": true,
+      "locations": [
         {
-        "name": "Trivandrum",
-        "support": [
-          { "id": 1, "name": "Tesla Service Hub - Trivandrum", "phone": "+91 9484848484" },
-          { "id": 2, "name": "Tesla AutoFix - Trivandrum", "phone": "+91 9585858585" },
-          { "id": 3, "name": "Tesla Garage Pro - Trivandrum", "phone": "+91 9686868686" },
-          { "id": 4, "name": "Tesla QuickService - Trivandrum", "phone": "+91 9787878787" }
-        ]
-      }
-      ]
-  },
-  {
-    "id": 4,
-    "brand": "Honda",
-    "model": "Civic",
-    "year": 2020,
-    "price": 55,
-    "image": "https://images.unsplash.com/photo-1706495227612-fde52c357c69?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG9uZGElMjBjYXJ8ZW58MHx8MHx8fDA%3D",
-    "type": "Sedan",
-    "features": ["Manual", "Gasoline", "AC", "Cruise Control"],
-    "available": true,
-     "locations": [
-       {
-       "name":"Kochi",
-       "support":[
-        { "id": 1, "name": "Tesla Service Center - Kochi", "phone": "+91 9876543210" },
-          { "id": 2, "name": "Tesla Express Garage - Kochi", "phone": "+91 9123456789" },
-          { "id": 3, "name": "Tesla AutoCare - Kochi", "phone": "+91 9988771122" },
-          { "id": 4, "name": "Tesla QuickFix - Kochi", "phone": "+91 9876512345" }
-    ]
-       },
+          "name": "Kochi",
+          "support": [
+            { "id": 1, "name": "BMW Service Center - Kochi", "phone": "+91 9876543210" },
+            { "id": 2, "name": "BMW Express Garage - Kochi", "phone": "+91 9123456789" },
+            { "id": 3, "name": "BMW AutoCare - Kochi", "phone": "+91 9988771122" },
+            { "id": 4, "name": "BMW QuickFix - Kochi", "phone": "+91 9876512345" }
+          ]
+        },
         {
-        "name": "Trivandrum",
-        "support": [
-          { "id": 1, "name": "Tesla Service Hub - Trivandrum", "phone": "+91 9484848484" },
-          { "id": 2, "name": "Tesla AutoFix - Trivandrum", "phone": "+91 9585858585" },
-          { "id": 3, "name": "Tesla Garage Pro - Trivandrum", "phone": "+91 9686868686" },
-          { "id": 4, "name": "Tesla QuickService - Trivandrum", "phone": "+91 9787878787" }
-        ]
-      }
+          "name": "Trivandrum",
+          "support": [
+            { "id": 1, "name": "BMW Service Hub - Trivandrum", "phone": "+91 9484848484" },
+            { "id": 2, "name": "BMW AutoFix - Trivandrum", "phone": "+91 9585858585" },
+            { "id": 3, "name": "BMW Garage Pro - Trivandrum", "phone": "+91 9686868686" },
+            { "id": 4, "name": "BMW QuickService - Trivandrum", "phone": "+91 9787878787" }
+          ]
+        }
       ]
-    
-  },
-  {
-    "id": 5,
-    "brand": "Ford",
-    "model": "Mustang",
-    "year": 2023,
-    "price": 150,
-    "image": "https://images.unsplash.com/photo-1502877338535-766e1452684a",
-    "type": "Sports",
-    "features": ["Gasoline", "Convertible", "Premium Audio", "Leather"],
-    "available": true,
-     "locations": [
-       {
-       "name":"Kochi",
-       "support":[
-        { "id": 1, "name": "Tesla Service Center - Kochi", "phone": "+91 9876543210" },
-          { "id": 2, "name": "Tesla Express Garage - Kochi", "phone": "+91 9123456789" },
-          { "id": 3, "name": "Tesla AutoCare - Kochi", "phone": "+91 9988771122" },
-          { "id": 4, "name": "Tesla QuickFix - Kochi", "phone": "+91 9876512345" }
-    ]
-       },
+    },
+    {
+      "id": 3,
+      "brand": "Audi",
+      "model": "A6",
+      "year": 2021,
+      "price": 3500,
+      "image": "https://images.unsplash.com/photo-1503736334956-4c8f8e92946d",
+      "type": "Sedan",
+      "features": ["Petrol", "Automatic", "Luxury", "Bluetooth"],
+      "available": false,
+      "locations": [
         {
-        "name": "Trivandrum",
-        "support": [
-          { "id": 1, "name": "Tesla Service Hub - Trivandrum", "phone": "+91 9484848484" },
-          { "id": 2, "name": "Tesla AutoFix - Trivandrum", "phone": "+91 9585858585" },
-          { "id": 3, "name": "Tesla Garage Pro - Trivandrum", "phone": "+91 9686868686" },
-          { "id": 4, "name": "Tesla QuickService - Trivandrum", "phone": "+91 9787878787" }
-        ]
-      }
-      ]
-       
-  },
-  {
-    "id": 6,
-    "brand": "Hyundai",
-    "model": "Elantra",
-    "year": 2021,
-    "price": 50,
-    "image": "https://images.unsplash.com/photo-1583121274602-3e2820c69888",
-    "type": "Sedan",
-    "features": ["Automatic", "Gasoline", "Bluetooth", "AC"],
-    "available": true,
-     "locations": [
-       {
-       "name":"Kochi",
-       "support":[
-        { "id": 1, "name": "Tesla Service Center - Kochi", "phone": "+91 9876543210" },
-          { "id": 2, "name": "Tesla Express Garage - Kochi", "phone": "+91 9123456789" },
-          { "id": 3, "name": "Tesla AutoCare - Kochi", "phone": "+91 9988771122" },
-          { "id": 4, "name": "Tesla QuickFix - Kochi", "phone": "+91 9876512345" }
-    ]
-       },
+          "name": "Kochi",
+          "support": [
+            { "id": 1, "name": "Audi Service Center - Kochi", "phone": "+91 9876543210" },
+            { "id": 2, "name": "Audi Express Garage - Kochi", "phone": "+91 9123456789" },
+            { "id": 3, "name": "Audi AutoCare - Kochi", "phone": "+91 9988771122" },
+            { "id": 4, "name": "Audi QuickFix - Kochi", "phone": "+91 9876512345" }
+          ]
+        },
         {
-        "name": "Trivandrum",
-        "support": [
-          { "id": 1, "name": "Tesla Service Hub - Trivandrum", "phone": "+91 9484848484" },
-          { "id": 2, "name": "Tesla AutoFix - Trivandrum", "phone": "+91 9585858585" },
-          { "id": 3, "name": "Tesla Garage Pro - Trivandrum", "phone": "+91 9686868686" },
-          { "id": 4, "name": "Tesla QuickService - Trivandrum", "phone": "+91 9787878787" }
-        ]
-      }
+          "name": "Trivandrum",
+          "support": [
+            { "id": 1, "name": "Audi Service Hub - Trivandrum", "phone": "+91 9484848484" },
+            { "id": 2, "name": "Audi AutoFix - Trivandrum", "phone": "+91 9585858585" },
+            { "id": 3, "name": "Audi Garage Pro - Trivandrum", "phone": "+91 9686868686" },
+            { "id": 4, "name": "Audi QuickService - Trivandrum", "phone": "+91 9787878787" }
+          ]
+        }
       ]
-        
-  },
-  {
-    "id": 7,
-    "brand": "Audi",
-    "model": "A6",
-    "year": 2022,
-    "price": 130,
-    "image": "https://images.unsplash.com/photo-1601924582971-df7d62a5f04a",
-    "type": "Luxury",
-    "features": ["Automatic", "Petrol", "Leather Seats", "Sunroof"],
-    "available": true,
-     "locations": [
-       {
-       "name":"Kochi",
-       "support":[
-        { "id": 1, "name": "Tesla Service Center - Kochi", "phone": "+91 9876543210" },
-          { "id": 2, "name": "Tesla Express Garage - Kochi", "phone": "+91 9123456789" },
-          { "id": 3, "name": "Tesla AutoCare - Kochi", "phone": "+91 9988771122" },
-          { "id": 4, "name": "Tesla QuickFix - Kochi", "phone": "+91 9876512345" }
-    ]
-       },
+    },
+    {
+      "id": 4,
+      "brand": "Mercedes",
+      "model": "C-Class",
+      "year": 2022,
+      "price": 4500,
+      "image": "https://images.unsplash.com/photo-1525609004556-c46c7d6cf023",
+      "type": "Sedan",
+      "features": ["Diesel", "Automatic", "Luxury", "Safety"],
+      "available": true,
+      "locations": [
         {
-        "name": "Trivandrum",
-        "support": [
-          { "id": 1, "name": "Tesla Service Hub - Trivandrum", "phone": "+91 9484848484" },
-          { "id": 2, "name": "Tesla AutoFix - Trivandrum", "phone": "+91 9585858585" },
-          { "id": 3, "name": "Tesla Garage Pro - Trivandrum", "phone": "+91 9686868686" },
-          { "id": 4, "name": "Tesla QuickService - Trivandrum", "phone": "+91 9787878787" }
-        ]
-      }
-      ]
-        
-  },
-  {
-    "id": 8,
-    "brand": "Mercedes",
-    "model": "C-Class",
-    "year": 2021,
-    "price": 140,
-    "image": "https://images.unsplash.com/photo-1600047500547-45e04b4d7c35",
-    "type": "Luxury",
-    "features": ["Automatic", "Petrol", "Touchscreen", "GPS"],
-    "available": false,
-        "locations": ["Kochi", "Trivandrum", "Calicut","pathanamthitta","Kottayam","Idukki","Kollam",
-      "Alappuzha","palakkad","Thrissur","Kannur","Kasargod","Ernakulam"]
-  },
-  {
-    "id": 9,
-    "brand": "Kia",
-    "model": "Sportage",
-    "year": 2022,
-    "price": 80,
-    "image": "https://images.unsplash.com/photo-1620891549027-4e9e5cfa4ce7",
-    "type": "SUV",
-    "features": ["Automatic", "Hybrid", "Bluetooth", "All-Wheel Drive"],
-    "available": true,
-     "locations": [
-       {
-       "name":"Kochi",
-       "support":[
-        { "id": 1, "name": "Tesla Service Center - Kochi", "phone": "+91 9876543210" },
-          { "id": 2, "name": "Tesla Express Garage - Kochi", "phone": "+91 9123456789" },
-          { "id": 3, "name": "Tesla AutoCare - Kochi", "phone": "+91 9988771122" },
-          { "id": 4, "name": "Tesla QuickFix - Kochi", "phone": "+91 9876512345" }
-    ]
-       },
+          "name": "Kochi",
+          "support": [
+            { "id": 1, "name": "Mercedes Service Center - Kochi", "phone": "+91 9876543210" },
+            { "id": 2, "name": "Mercedes Express Garage - Kochi", "phone": "+91 9123456789" },
+            { "id": 3, "name": "Mercedes AutoCare - Kochi", "phone": "+91 9988771122" },
+            { "id": 4, "name": "Mercedes QuickFix - Kochi", "phone": "+91 9876512345" }
+          ]
+        },
         {
-        "name": "Trivandrum",
-        "support": [
-          { "id": 1, "name": "Tesla Service Hub - Trivandrum", "phone": "+91 9484848484" },
-          { "id": 2, "name": "Tesla AutoFix - Trivandrum", "phone": "+91 9585858585" },
-          { "id": 3, "name": "Tesla Garage Pro - Trivandrum", "phone": "+91 9686868686" },
-          { "id": 4, "name": "Tesla QuickService - Trivandrum", "phone": "+91 9787878787" }
-        ]
-      }
+          "name": "Trivandrum",
+          "support": [
+            { "id": 1, "name": "Mercedes Service Hub - Trivandrum", "phone": "+91 9484848484" },
+            { "id": 2, "name": "Mercedes AutoFix - Trivandrum", "phone": "+91 9585858585" },
+            { "id": 3, "name": "Mercedes Garage Pro - Trivandrum", "phone": "+91 9686868686" },
+            { "id": 4, "name": "Mercedes QuickService - Trivandrum", "phone": "+91 9787878787" }
+          ]
+        }
       ]
-  },
-  {
-    "id": 10,
-    "brand": "Chevrolet",
-    "model": "Impala",
-    "year": 2020,
-    "price": 65,
-    "image": "https://images.unsplash.com/photo-1583267746896-761f3a5d84e0",
-    "type": "Sedan",
-    "features": ["Automatic", "Gasoline", "AC", "Bluetooth"],
-    "available": true,
-     "locations": [
-       {
-       "name":"Kochi",
-       "support":[
-        { "id": 1, "name": "Tesla Service Center - Kochi", "phone": "+91 9876543210" },
-          { "id": 2, "name": "Tesla Express Garage - Kochi", "phone": "+91 9123456789" },
-          { "id": 3, "name": "Tesla AutoCare - Kochi", "phone": "+91 9988771122" },
-          { "id": 4, "name": "Tesla QuickFix - Kochi", "phone": "+91 9876512345" }
-    ]
-       },
+    },
+    {
+      "id": 5,
+      "brand": "Ford",
+      "model": "Mustang",
+      "year": 2023,
+      "price": 1500,
+      "image": "https://images.unsplash.com/photo-1502877338535-766e1452684a",
+      "type": "Sports",
+      "features": ["Gasoline", "Convertible", "Premium Audio", "Leather"],
+      "available": true,
+      "locations": [
         {
-        "name": "Trivandrum",
-        "support": [
-          { "id": 1, "name": "Tesla Service Hub - Trivandrum", "phone": "+91 9484848484" },
-          { "id": 2, "name": "Tesla AutoFix - Trivandrum", "phone": "+91 9585858585" },
-          { "id": 3, "name": "Tesla Garage Pro - Trivandrum", "phone": "+91 9686868686" },
-          { "id": 4, "name": "Tesla QuickService - Trivandrum", "phone": "+91 9787878787" }
-        ]
-      }
-      ]
-  },
-  {
-    "id": 11,
-    "brand": "Jeep",
-    "model": "Wrangler",
-    "year": 2023,
-    "price": 110,
-    "image": "https://images.unsplash.com/photo-1597001020484-5eec2a3f8b82",
-    "type": "Off-Road",
-    "features": ["4x4", "Convertible", "All-Terrain Tires", "Navigation"],
-    "available": true,
-        "locations": ["Kochi", "Trivandrum", "Calicut","pathanamthitta","Kottayam","Idukki","Kollam",
-      "Alappuzha","palakkad","Thrissur","Kannur","Kasargod","Ernakulam"]
-  },
-  {
-    "id": 12,
-    "brand": "Nissan",
-    "model": "Altima",
-    "year": 2021,
-    "price": 60,
-    "image": "https://images.unsplash.com/photo-1605559424843-9f4f9d9a6a5f",
-    "type": "Sedan",
-    "features": ["Automatic", "Gasoline", "Cruise Control", "Bluetooth"],
-    "available": true,
-     "locations": [
-       {
-       "name":"Kochi",
-       "support":[
-        { "id": 1, "name": "Tesla Service Center - Kochi", "phone": "+91 9876543210" },
-          { "id": 2, "name": "Tesla Express Garage - Kochi", "phone": "+91 9123456789" },
-          { "id": 3, "name": "Tesla AutoCare - Kochi", "phone": "+91 9988771122" },
-          { "id": 4, "name": "Tesla QuickFix - Kochi", "phone": "+91 9876512345" }
-    ]
-       },
+          "name": "Kochi",
+          "support": [
+            { "id": 1, "name": "Ford Service Center - Kochi", "phone": "+91 9876543210" },
+            { "id": 2, "name": "Ford Express Garage - Kochi", "phone": "+91 9123456789" },
+            { "id": 3, "name": "Ford AutoCare - Kochi", "phone": "+91 9988771122" },
+            { "id": 4, "name": "Ford QuickFix - Kochi", "phone": "+91 9876512345" }
+          ]
+        },
         {
-        "name": "Trivandrum",
-        "support": [
-          { "id": 1, "name": "Tesla Service Hub - Trivandrum", "phone": "+91 9484848484" },
-          { "id": 2, "name": "Tesla AutoFix - Trivandrum", "phone": "+91 9585858585" },
-          { "id": 3, "name": "Tesla Garage Pro - Trivandrum", "phone": "+91 9686868686" },
-          { "id": 4, "name": "Tesla QuickService - Trivandrum", "phone": "+91 9787878787" }
-        ]
-      }
+          "name": "Trivandrum",
+          "support": [
+            { "id": 1, "name": "Ford Service Hub - Trivandrum", "phone": "+91 9484848484" },
+            { "id": 2, "name": "Ford AutoFix - Trivandrum", "phone": "+91 9585858585" },
+            { "id": 3, "name": "Ford Garage Pro - Trivandrum", "phone": "+91 9686868686" },
+            { "id": 4, "name": "Ford QuickService - Trivandrum", "phone": "+91 9787878787" }
+          ]
+        }
       ]
-       
-  {
-    "id": 13,
-    "brand": "Volkswagen",
-    "model": "Passat",
-    "year": 2021,
-    "price": 70,
-    "image": "https://images.unsplash.com/photo-1616788563939-cb4c18d4a14c",
-    "type": "Sedan",
-    "features": ["Automatic", "Diesel", "AC", "Bluetooth"],
-    "available": true,
-     "locations": [
-       {
-       "name":"Kochi",
-       "support":[
-        { "id": 1, "name": "Tesla Service Center - Kochi", "phone": "+91 9876543210" },
-          { "id": 2, "name": "Tesla Express Garage - Kochi", "phone": "+91 9123456789" },
-          { "id": 3, "name": "Tesla AutoCare - Kochi", "phone": "+91 9988771122" },
-          { "id": 4, "name": "Tesla QuickFix - Kochi", "phone": "+91 9876512345" }
-    ]
-       },
+    }
+        ,
+    {
+      "id": 6,
+      "brand": "Toyota",
+      "model": "Fortuner",
+      "year": 2021,
+      "price": 2200,
+      "image": "https://images.unsplash.com/photo-1605559424843-9f64c96bda9b",
+      "type": "SUV",
+      "features": ["Diesel", "Automatic", "7-Seater", "Safety"],
+      "available": true,
+      "locations": [
         {
-        "name": "Trivandrum",
-        "support": [
-          { "id": 1, "name": "Tesla Service Hub - Trivandrum", "phone": "+91 9484848484" },
-          { "id": 2, "name": "Tesla AutoFix - Trivandrum", "phone": "+91 9585858585" },
-          { "id": 3, "name": "Tesla Garage Pro - Trivandrum", "phone": "+91 9686868686" },
-          { "id": 4, "name": "Tesla QuickService - Trivandrum", "phone": "+91 9787878787" }
-        ]
-      }
-      ]
-       
-  },
-  {
-    "id": 14,
-    "brand": "Mazda",
-    "model": "CX-5",
-    "year": 2022,
-    "price": 90,
-    "image": "https://images.unsplash.com/photo-1620891549027-4e9e5cfa4ce7",
-    "type": "SUV",
-    "features": ["Automatic", "Petrol", "All-Wheel Drive", "Cruise Control"],
-    "available": true,
-     "locations": [
-       {
-       "name":"Kochi",
-       "support":[
-        { "id": 1, "name": "Tesla Service Center - Kochi", "phone": "+91 9876543210" },
-          { "id": 2, "name": "Tesla Express Garage - Kochi", "phone": "+91 9123456789" },
-          { "id": 3, "name": "Tesla AutoCare - Kochi", "phone": "+91 9988771122" },
-          { "id": 4, "name": "Tesla QuickFix - Kochi", "phone": "+91 9876512345" }
-    ]
-       },
+          "name": "Kochi",
+          "support": [
+            { "id": 1, "name": "Toyota Service Center - Kochi", "phone": "+91 9812345678" },
+            { "id": 2, "name": "Toyota Express Garage - Kochi", "phone": "+91 9823456789" },
+            { "id": 3, "name": "Toyota AutoCare - Kochi", "phone": "+91 9834567890" },
+            { "id": 4, "name": "Toyota QuickFix - Kochi", "phone": "+91 9845678901" }
+          ]
+        },
         {
-        "name": "Trivandrum",
-        "support": [
-          { "id": 1, "name": "Tesla Service Hub - Trivandrum", "phone": "+91 9484848484" },
-          { "id": 2, "name": "Tesla AutoFix - Trivandrum", "phone": "+91 9585858585" },
-          { "id": 3, "name": "Tesla Garage Pro - Trivandrum", "phone": "+91 9686868686" },
-          { "id": 4, "name": "Tesla QuickService - Trivandrum", "phone": "+91 9787878787" }
-        ]
-      }
+          "name": "Trivandrum",
+          "support": [
+            { "id": 1, "name": "Toyota Service Hub - Trivandrum", "phone": "+91 9945678901" },
+            { "id": 2, "name": "Toyota AutoFix - Trivandrum", "phone": "+91 9956789012" },
+            { "id": 3, "name": "Toyota Garage Pro - Trivandrum", "phone": "+91 9967890123" },
+            { "id": 4, "name": "Toyota QuickService - Trivandrum", "phone": "+91 9978901234" }
+          ]
+        }
       ]
-        
-  },
-  {
-    "id": 15,
-    "brand": "Volvo",
-    "model": "XC90",
-    "year": 2023,
-    "price": 150,
-    "image": "https://images.unsplash.com/photo-1618080573735-747e5a4c8ed5",
-    "type": "Luxury SUV",
-    "features": ["Automatic", "Hybrid", "Leather Seats", "GPS"],
-    "available": true,
-     "locations": [
-       {
-       "name":"Kochi",
-       "support":[
-        { "id": 1, "name": "Tesla Service Center - Kochi", "phone": "+91 9876543210" },
-          { "id": 2, "name": "Tesla Express Garage - Kochi", "phone": "+91 9123456789" },
-          { "id": 3, "name": "Tesla AutoCare - Kochi", "phone": "+91 9988771122" },
-          { "id": 4, "name": "Tesla QuickFix - Kochi", "phone": "+91 9876512345" }
-    ]
-       },
+    },
+    {
+      "id": 7,
+      "brand": "Hyundai",
+      "model": "Creta",
+      "year": 2022,
+      "price": 1800,
+      "image": "https://images.unsplash.com/photo-1602868084936-9d6eced0419d",
+      "type": "SUV",
+      "features": ["Petrol", "Manual", "Bluetooth", "Comfort"],
+      "available": false,
+      "locations": [
         {
-        "name": "Trivandrum",
-        "support": [
-          { "id": 1, "name": "Tesla Service Hub - Trivandrum", "phone": "+91 9484848484" },
-          { "id": 2, "name": "Tesla AutoFix - Trivandrum", "phone": "+91 9585858585" },
-          { "id": 3, "name": "Tesla Garage Pro - Trivandrum", "phone": "+91 9686868686" },
-          { "id": 4, "name": "Tesla QuickService - Trivandrum", "phone": "+91 9787878787" }
-        ]
-      }
-      ]
-  },
-  {
-    "id": 16,
-    "brand": "Porsche",
-    "model": "911",
-    "year": 2023,
-    "price": 200,
-    "image": "https://images.unsplash.com/photo-1602872029461-3c67efbdb58a",
-    "type": "Sports",
-    "features": ["Petrol", "Convertible", "Premium Audio", "Navigation"],
-    "available": true,
-     "locations": [
-       {
-       "name":"Kochi",
-       "support":[
-        { "id": 1, "name": "Tesla Service Center - Kochi", "phone": "+91 9876543210" },
-          { "id": 2, "name": "Tesla Express Garage - Kochi", "phone": "+91 9123456789" },
-          { "id": 3, "name": "Tesla AutoCare - Kochi", "phone": "+91 9988771122" },
-          { "id": 4, "name": "Tesla QuickFix - Kochi", "phone": "+91 9876512345" }
-    ]
-       },
+          "name": "Kochi",
+          "support": [
+            { "id": 1, "name": "Hyundai Service Center - Kochi", "phone": "+91 9812341111" },
+            { "id": 2, "name": "Hyundai Express Garage - Kochi", "phone": "+91 9823452222" },
+            { "id": 3, "name": "Hyundai AutoCare - Kochi", "phone": "+91 9834563333" },
+            { "id": 4, "name": "Hyundai QuickFix - Kochi", "phone": "+91 9845674444" }
+          ]
+        },
         {
-        "name": "Trivandrum",
-        "support": [
-          { "id": 1, "name": "Tesla Service Hub - Trivandrum", "phone": "+91 9484848484" },
-          { "id": 2, "name": "Tesla AutoFix - Trivandrum", "phone": "+91 9585858585" },
-          { "id": 3, "name": "Tesla Garage Pro - Trivandrum", "phone": "+91 9686868686" },
-          { "id": 4, "name": "Tesla QuickService - Trivandrum", "phone": "+91 9787878787" }
-        ]
-      }
+          "name": "Trivandrum",
+          "support": [
+            { "id": 1, "name": "Hyundai Service Hub - Trivandrum", "phone": "+91 9945675555" },
+            { "id": 2, "name": "Hyundai AutoFix - Trivandrum", "phone": "+91 9956786666" },
+            { "id": 3, "name": "Hyundai Garage Pro - Trivandrum", "phone": "+91 9967897777" },
+            { "id": 4, "name": "Hyundai QuickService - Trivandrum", "phone": "+91 9978908888" }
+          ]
+        }
       ]
-        
-  },
-  {
-    "id": 17,
-    "brand": "Lexus",
-    "model": "ES 350",
-    "year": 2022,
-    "price": 125,
-    "image": "https://images.unsplash.com/photo-1581873372797-4f9f0dbf4563",
-    "type": "Luxury Sedan",
-    "features": ["Automatic", "Hybrid", "Leather Seats", "Sunroof"],
-    "available": true,
-     "locations": [
-       {
-       "name":"Kochi",
-       "support":[
-        { "id": 1, "name": "Lexus Service Center - Kochi", "phone": "+91 9876543210" },
-          { "id": 2, "name": "Lexus Express Garage - Kochi", "phone": "+91 9123456789" },
-          { "id": 3, "name": "Lexus AutoCare - Kochi", "phone": "+91 9988771122" },
-          { "id": 4, "name": "Lexus QuickFix - Kochi", "phone": "+91 9876512345" }
-    ]
-       },
+    },
+    {
+      "id": 8,
+      "brand": "Honda",
+      "model": "City",
+      "year": 2020,
+      "price": 1600,
+      "image": "https://images.unsplash.com/photo-1597007634732-3dbeedbb8d07",
+      "type": "Sedan",
+      "features": ["Petrol", "Automatic", "Comfort", "Safety"],
+      "available": true,
+      "locations": [
         {
-        "name": "Trivandrum",
-        "support": [
-          { "id": 1, "name": "Lexus Service Hub - Trivandrum", "phone": "+91 9484848484" },
-          { "id": 2, "name": "Lexus AutoFix - Trivandrum", "phone": "+91 9585858585" },
-          { "id": 3, "name": "Lexus Garage Pro - Trivandrum", "phone": "+91 9686868686" },
-          { "id": 4, "name": "Lexus QuickService - Trivandrum", "phone": "+91 9787878787" }
-        ]
-      }
-      ]
-        
-  {
-    "id": 18,
-    "brand": "Jaguar",
-    "model": "F-Type",
-    "year": 2023,
-    "price": 180,
-    "image": "https://images.unsplash.com/photo-1616788563939-cb4c18d4a14c",
-    "type": "Sports",
-    "features": ["Automatic", "Petrol", "Convertible", "GPS"],
-    "available": true,
-     "locations": [
-       {
-       "name":"Kochi",
-       "support":[
-        { "id": 1, "name": "Jaguar Service Center - Kochi", "phone": "+91 9876543210" },
-          { "id": 2, "name": " Jaguar Express Garage - Kochi", "phone": "+91 9123456789" },
-          { "id": 3, "name": "Jaguar AutoCare - Kochi", "phone": "+91 9988771122" },
-          { "id": 4, "name": "Jaguar QuickFix - Kochi", "phone": "+91 9876512345" }
-    ]
-       },
+          "name": "Kochi",
+          "support": [
+            { "id": 1, "name": "Honda Service Center - Kochi", "phone": "+91 9812311111" },
+            { "id": 2, "name": "Honda Express Garage - Kochi", "phone": "+91 9823422222" },
+            { "id": 3, "name": "Honda AutoCare - Kochi", "phone": "+91 9834533333" },
+            { "id": 4, "name": "Honda QuickFix - Kochi", "phone": "+91 9845644444" }
+          ]
+        },
         {
-        "name": "Trivandrum",
-        "support": [
-          { "id": 1, "name": "Jaguar Service Hub - Trivandrum", "phone": "+91 9484848484" },
-          { "id": 2, "name": "Jaguar AutoFix - Trivandrum", "phone": "+91 9585858585" },
-          { "id": 3, "name": "Jaguar Garage Pro - Trivandrum", "phone": "+91 9686868686" },
-          { "id": 4, "name": "Jaguar QuickService - Trivandrum", "phone": "+91 9787878787" }
-        ]
-      }
+          "name": "Trivandrum",
+          "support": [
+            { "id": 1, "name": "Honda Service Hub - Trivandrum", "phone": "+91 9945655555" },
+            { "id": 2, "name": "Honda AutoFix - Trivandrum", "phone": "+91 9956766666" },
+            { "id": 3, "name": "Honda Garage Pro - Trivandrum", "phone": "+91 9967877777" },
+            { "id": 4, "name": "Honda QuickService - Trivandrum", "phone": "+91 9978988888" }
+          ]
+        }
       ]
-       
-  },
-  {
-    "id": 19,
-    "brand": "Range Rover",
-    "model": "Evoque",
-    "year": 2022,
-    "price": 170,
-    "image": "https://images.unsplash.com/photo-1618080573735-747e5a4c8ed5",
-    "type": "SUV",
-    "features": ["Automatic", "Diesel", "All-Wheel Drive", "Luxury Interior"],
-    "available": true,
-     "locations": [
-       {
-       "name":"Kochi",
-       "support":[
-        { "id": 1, "name": "Range rover Service Center - Kochi", "phone": "+91 9876543210" },
-          { "id": 2, "name": "Range rover Service Center- Kochi", "phone": "+91 9123456789" },
-          { "id": 2, "name": "Range rover Service Center - Kochi", "phone": "+91 9123456789" },
-          { "id": 3, "name": "Range rover Service Center- Kochi", "phone": "+91 9988771122" },
-          { "id": 4, "name": "Range rover Service Center - Kochi", "phone": "+91 9876512345" }
-    ]
-       },
+    },
+    {
+      "id": 9,
+      "brand": "Kia",
+      "model": "Seltos",
+      "year": 2021,
+      "price": 1700,
+      "image": "https://images.unsplash.com/photo-1618782360157-f16b8464470d",
+      "type": "SUV",
+      "features": ["Diesel", "Automatic", "Luxury", "Safety"],
+      "available": true,
+      "locations": [
         {
-        "name": "Trivandrum",
-        "support": [
-          { "id": 1, "name": "Range rover Service Center - Trivandrum", "phone": "+91 9484848484" },
-          { "id": 2, "name": "Range rover Service Center - Trivandrum", "phone": "+91 9585858585" },
-          { "id": 3, "name": "Range rover Service Center - Trivandrum", "phone": "+91 9686868686" },
-          { "id": 4, "name": "Range rover Service Center- Trivandrum", "phone": "+91 9787878787" }
-        ]
-      }
-      ]
-        
-  },
-  {
-    "id": 20,
-    "brand": "Chevrolet",
-    "model": "Camaro",
-    "year": 2023,
-    "price": 160,
-    "image": "https://images.unsplash.com/photo-1502877338535-766e1452684a",
-    "type": "Sports",
-    "features": ["Gasoline", "Convertible", "Premium Audio", "Navigation"],
-    "available": true,
-     "locations": [
-       {
-       "name":"Kochi",
-       "support":[
-        { "id": 1, "name": "Chevrolet Service Center - Kochi", "phone": "+91 9876543210" },
-          { "id": 2, "name": "Chevrolet Express Garage - Kochi", "phone": "+91 9123456789" },
-          { "id": 3, "name": "Chevrolet AutoCare - Kochi", "phone": "+91 9988771122" },
-          { "id": 4, "name": "Chevrolet QuickFix - Kochi", "phone": "+91 9876512345" }
-    ]
-       },
+          "name": "Kochi",
+          "support": [
+            { "id": 1, "name": "Kia Service Center - Kochi", "phone": "+91 9812321111" },
+            { "id": 2, "name": "Kia Express Garage - Kochi", "phone": "+91 9823432222" },
+            { "id": 3, "name": "Kia AutoCare - Kochi", "phone": "+91 9834543333" },
+            { "id": 4, "name": "Kia QuickFix - Kochi", "phone": "+91 9845654444" }
+          ]
+        },
         {
-        "name": "Trivandrum",
-        "support": [
-          { "id": 1, "name": "Chevrolet Service Hub - Trivandrum", "phone": "+91 9484848484" },
-          { "id": 2, "name": "Chevrolet AutoFix - Trivandrum", "phone": "+91 9585858585" },
-          { "id": 3, "name": "Chevrolet Garage Pro - Trivandrum", "phone": "+91 9686868686" },
-          { "id": 4, "name": "Chevrolet QuickService - Trivandrum", "phone": "+91 9787878787" }
-        ]
-      }
+          "name": "Trivandrum",
+          "support": [
+            { "id": 1, "name": "Kia Service Hub - Trivandrum", "phone": "+91 9945665555" },
+            { "id": 2, "name": "Kia AutoFix - Trivandrum", "phone": "+91 9956776666" },
+            { "id": 3, "name": "Kia Garage Pro - Trivandrum", "phone": "+91 9967887777" },
+            { "id": 4, "name": "Kia QuickService - Trivandrum", "phone": "+91 9978998888" }
+          ]
+        }
       ]
-        
-  }
-]
+    },
+    {
+      "id": 10,
+      "brand": "Nissan",
+      "model": "Magnite",
+      "year": 2022,
+      "price": 1500,
+      "image": "https://images.unsplash.com/photo-1621857504631-f2a5e4bb41d2",
+      "type": "Compact SUV",
+      "features": ["Petrol", "Manual", "Affordable", "Safety"],
+      "available": true,
+      "locations": [
+        {
+          "name": "Kochi",
+          "support": [
+            { "id": 1, "name": "Nissan Service Center - Kochi", "phone": "+91 9812331111" },
+            { "id": 2, "name": "Nissan Express Garage - Kochi", "phone": "+91 9823442222" },
+            { "id": 3, "name": "Nissan AutoCare - Kochi", "phone": "+91 9834553333" },
+            { "id": 4, "name": "Nissan QuickFix - Kochi", "phone": "+91 9845664444" }
+          ]
+        },
+        {
+          "name": "Trivandrum",
+          "support": [
+            { "id": 1, "name": "Nissan Service Hub - Trivandrum", "phone": "+91 9945675555" },
+            { "id": 2, "name": "Nissan AutoFix - Trivandrum", "phone": "+91 9956786666" },
+            { "id": 3, "name": "Nissan Garage Pro - Trivandrum", "phone": "+91 9967897777" },
+            { "id": 4, "name": "Nissan QuickService - Trivandrum", "phone": "+91 9978908888" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "brand": "Ford",
+      "model": "EcoSport",
+      "year": 2019,
+      "price": 1600,
+      "image": "https://images.unsplash.com/photo-1614531341773-04af64d52a4d",
+      "type": "Compact SUV",
+      "features": ["Diesel", "Manual", "Safety", "Comfort"],
+      "available": false,
+      "locations": [
+        {
+          "name": "Kochi",
+          "support": [
+            { "id": 1, "name": "Ford Service Center - Kochi", "phone": "+91 9812341112" },
+            { "id": 2, "name": "Ford Express Garage - Kochi", "phone": "+91 9823452223" },
+            { "id": 3, "name": "Ford AutoCare - Kochi", "phone": "+91 9834563334" },
+            { "id": 4, "name": "Ford QuickFix - Kochi", "phone": "+91 9845674445" }
+          ]
+        },
+        {
+          "name": "Trivandrum",
+          "support": [
+            { "id": 1, "name": "Ford Service Hub - Trivandrum", "phone": "+91 9945675556" },
+            { "id": 2, "name": "Ford AutoFix - Trivandrum", "phone": "+91 9956786667" },
+            { "id": 3, "name": "Ford Garage Pro - Trivandrum", "phone": "+91 9967897778" },
+            { "id": 4, "name": "Ford QuickService - Trivandrum", "phone": "+91 9978908889" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "brand": "Jeep",
+      "model": "Compass",
+      "year": 2021,
+      "price": 2500,
+      "image": "https://images.unsplash.com/photo-1602868091279-756d34b93a9f",
+      "type": "SUV",
+      "features": ["Diesel", "Automatic", "Luxury", "Off-road"],
+      "available": true,
+      "locations": [
+        {
+          "name": "Kochi",
+          "support": [
+            { "id": 1, "name": "Jeep Service Center - Kochi", "phone": "+91 9812351111" },
+            { "id": 2, "name": "Jeep Express Garage - Kochi", "phone": "+91 9823462222" },
+            { "id": 3, "name": "Jeep AutoCare - Kochi", "phone": "+91 9834573333" },
+            { "id": 4, "name": "Jeep QuickFix - Kochi", "phone": "+91 9845684444" }
+          ]
+        },
+        {
+          "name": "Trivandrum",
+          "support": [
+            { "id": 1, "name": "Jeep Service Hub - Trivandrum", "phone": "+91 9945685555" },
+            { "id": 2, "name": "Jeep AutoFix - Trivandrum", "phone": "+91 9956796666" },
+            { "id": 3, "name": "Jeep Garage Pro - Trivandrum", "phone": "+91 9967907777" },
+            { "id": 4, "name": "Jeep QuickService - Trivandrum", "phone": "+91 9978918888" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "brand": "Volkswagen",
+      "model": "Polo",
+      "year": 2020,
+      "price": 1400,
+      "image": "https://images.unsplash.com/photo-1583445095369-fb49e944c9d2",
+      "type": "Hatchback",
+      "features": ["Petrol", "Manual", "Compact", "Comfort"],
+      "available": true,
+      "locations": [
+        {
+          "name": "Kochi",
+          "support": [
+            { "id": 1, "name": "Volkswagen Service Center - Kochi", "phone": "+91 9812361111" },
+            { "id": 2, "name": "Volkswagen Express Garage - Kochi", "phone": "+91 9823472222" },
+            { "id": 3, "name": "Volkswagen AutoCare - Kochi", "phone": "+91 9834583333" },
+            { "id": 4, "name": "Volkswagen QuickFix - Kochi", "phone": "+91 9845694444" }
+          ]
+        },
+        {
+          "name": "Trivandrum",
+          "support": [
+            { "id": 1, "name": "Volkswagen Service Hub - Trivandrum", "phone": "+91 9945695555" },
+            { "id": 2, "name": "Volkswagen AutoFix - Trivandrum", "phone": "+91 9956806666" },
+            { "id": 3, "name": "Volkswagen Garage Pro - Trivandrum", "phone": "+91 9967917777" },
+            { "id": 4, "name": "Volkswagen QuickService - Trivandrum", "phone": "+91 9978928888" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "brand": "Renault",
+      "model": "Kwid",
+      "year": 2021,
+      "price": 1200,
+      "image": "https://images.unsplash.com/photo-1605559445635-5e6c40e0eb20",
+      "type": "Hatchback",
+      "features": ["Petrol", "Manual", "Affordable", "Compact"],
+      "available": true,
+      "locations": [
+        {
+          "name": "Kochi",
+          "support": [
+            { "id": 1, "name": "Renault Service Center - Kochi", "phone": "+91 9812371111" },
+            { "id": 2, "name": "Renault Express Garage - Kochi", "phone": "+91 9823482222" },
+            { "id": 3, "name": "Renault AutoCare - Kochi", "phone": "+91 9834593333" },
+            { "id": 4, "name": "Renault QuickFix - Kochi", "phone": "+91 9845704444" }
+          ]
+        },
+        {
+          "name": "Trivandrum",
+          "support": [
+            { "id": 1, "name": "Renault Service Hub - Trivandrum", "phone": "+91 9945705555" },
+            { "id": 2, "name": "Renault AutoFix - Trivandrum", "phone": "+91 9956816666" },
+            { "id": 3, "name": "Renault Garage Pro - Trivandrum", "phone": "+91 9967927777" },
+            { "id": 4, "name": "Renault QuickService - Trivandrum", "phone": "+91 9978938888" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "brand": "Skoda",
+      "model": "Octavia",
+      "year": 2019,
+      "price": 2000,
+      "image": "https://images.unsplash.com/photo-1597007577993-1e1982f4f6e6",
+      "type": "Sedan",
+      "features": ["Diesel", "Automatic", "Luxury", "Safety"],
+      "available": false,
+      "locations": [
+        {
+          "name": "Kochi",
+          "support": [
+            { "id": 1, "name": "Skoda Service Center - Kochi", "phone": "+91 9812381111" },
+            { "id": 2, "name": "Skoda Express Garage - Kochi", "phone": "+91 9823492222" },
+            { "id": 3, "name": "Skoda AutoCare - Kochi", "phone": "+91 9834603333" },
+            { "id": 4, "name": "Skoda QuickFix - Kochi", "phone": "+91 9845714444" }
+          ]
+        },
+        {
+          "name": "Trivandrum",
+          "support": [
+            { "id": 1, "name": "Skoda Service Hub - Trivandrum", "phone": "+91 9945715555" },
+            { "id": 2, "name": "Skoda AutoFix - Trivandrum", "phone": "+91 9956826666" },
+            { "id": 3, "name": "Skoda Garage Pro - Trivandrum", "phone": "+91 9967937777" },
+            { "id": 4, "name": "Skoda QuickService - Trivandrum", "phone": "+91 9978948888" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "brand": "Nissan",
+      "model": "Magnite",
+      "year": 2022,
+      "price": 1500,
+      "image": "https://images.unsplash.com/photo-1617098851551-fc3cb18e2850",
+      "type": "Compact SUV",
+      "features": ["Petrol", "Manual", "Budget", "Safety"],
+      "available": true,
+      "locations": [
+        {
+          "name": "Kochi",
+          "support": [
+            { "id": 1, "name": "Nissan Service Center - Kochi", "phone": "+91 9812391111" },
+            { "id": 2, "name": "Nissan Express Garage - Kochi", "phone": "+91 9823502222" },
+            { "id": 3, "name": "Nissan AutoCare - Kochi", "phone": "+91 9834613333" },
+            { "id": 4, "name": "Nissan QuickFix - Kochi", "phone": "+91 9845724444" }
+          ]
+        },
+        {
+          "name": "Trivandrum",
+          "support": [
+            { "id": 1, "name": "Nissan Service Hub - Trivandrum", "phone": "+91 9945725555" },
+            { "id": 2, "name": "Nissan AutoFix - Trivandrum", "phone": "+91 9956836666" },
+            { "id": 3, "name": "Nissan Garage Pro - Trivandrum", "phone": "+91 9967947777" },
+            { "id": 4, "name": "Nissan QuickService - Trivandrum", "phone": "+91 9978958888" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "brand": "Kia",
+      "model": "Seltos",
+      "year": 2021,
+      "price": 2200,
+      "image": "https://images.unsplash.com/photo-1592813630417-91f9e6a07e49",
+      "type": "SUV",
+      "features": ["Diesel", "Automatic", "Luxury", "Comfort"],
+      "available": true,
+      "locations": [
+        {
+          "name": "Kochi",
+          "support": [
+            { "id": 1, "name": "Kia Service Center - Kochi", "phone": "+91 9812401111" },
+            { "id": 2, "name": "Kia Express Garage - Kochi", "phone": "+91 9823512222" },
+            { "id": 3, "name": "Kia AutoCare - Kochi", "phone": "+91 9834623333" },
+            { "id": 4, "name": "Kia QuickFix - Kochi", "phone": "+91 9845734444" }
+          ]
+        },
+        {
+          "name": "Trivandrum",
+          "support": [
+            { "id": 1, "name": "Kia Service Hub - Trivandrum", "phone": "+91 9945735555" },
+            { "id": 2, "name": "Kia AutoFix - Trivandrum", "phone": "+91 9956846666" },
+            { "id": 3, "name": "Kia Garage Pro - Trivandrum", "phone": "+91 9967957777" },
+            { "id": 4, "name": "Kia QuickService - Trivandrum", "phone": "+91 9978968888" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "brand": "MG",
+      "model": "Hector",
+      "year": 2020,
+      "price": 2300,
+      "image": "https://images.unsplash.com/photo-1605559782890-f1fba07f92f3",
+      "type": "SUV",
+      "features": ["Petrol", "Automatic", "Smart Features", "Luxury"],
+      "available": false,
+      "locations": [
+        {
+          "name": "Kochi",
+          "support": [
+            { "id": 1, "name": "MG Service Center - Kochi", "phone": "+91 9812411111" },
+            { "id": 2, "name": "MG Express Garage - Kochi", "phone": "+91 9823522222" },
+            { "id": 3, "name": "MG AutoCare - Kochi", "phone": "+91 9834633333" },
+            { "id": 4, "name": "MG QuickFix - Kochi", "phone": "+91 9845744444" }
+          ]
+        },
+        {
+          "name": "Trivandrum",
+          "support": [
+            { "id": 1, "name": "MG Service Hub - Trivandrum", "phone": "+91 9945745555" },
+            { "id": 2, "name": "MG AutoFix - Trivandrum", "phone": "+91 9956856666" },
+            { "id": 3, "name": "MG Garage Pro - Trivandrum", "phone": "+91 9967967777" },
+            { "id": 4, "name": "MG QuickService - Trivandrum", "phone": "+91 9978978888" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "brand": "Audi",
+      "model": "Q7",
+      "year": 2021,
+      "price": 5000,
+      "image": "https://images.unsplash.com/photo-1597007237062-8a7f8a91b7d1",
+      "type": "Luxury SUV",
+      "features": ["Diesel", "Automatic", "Premium", "Comfort"],
+      "available": true,
+      "locations": [
+        {
+          "name": "Kochi",
+          "support": [
+            { "id": 1, "name": "Audi Service Center - Kochi", "phone": "+91 9812421111" },
+            { "id": 2, "name": "Audi Express Garage - Kochi", "phone": "+91 9823532222" },
+            { "id": 3, "name": "Audi AutoCare - Kochi", "phone": "+91 9834643333" },
+            { "id": 4, "name": "Audi QuickFix - Kochi", "phone": "+91 9845754444" }
+          ]
+        },
+        {
+          "name": "Trivandrum",
+          "support": [
+            { "id": 1, "name": "Audi Service Hub - Trivandrum", "phone": "+91 9945755555" },
+            { "id": 2, "name": "Audi AutoFix - Trivandrum", "phone": "+91 9956866666" },
+            { "id": 3, "name": "Audi Garage Pro - Trivandrum", "phone": "+91 9967977777" },
+            { "id": 4, "name": "Audi QuickService - Trivandrum", "phone": "+91 9978988888" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "brand": "Mercedes-Benz",
+      "model": "GLA",
+      "year": 2022,
+      "price": 5500,
+      "image": "https://images.unsplash.com/photo-1602865895873-9d3c5a4e5c9a",
+      "type": "Luxury SUV",
+      "features": ["Petrol", "Automatic", "Premium", "Safety"],
+      "available": true,
+      "locations": [
+        {
+          "name": "Kochi",
+          "support": [
+            { "id": 1, "name": "Mercedes Service Center - Kochi", "phone": "+91 9812431111" },
+            { "id": 2, "name": "Mercedes Express Garage - Kochi", "phone": "+91 9823542222" },
+            { "id": 3, "name": "Mercedes AutoCare - Kochi", "phone": "+91 9834653333" },
+            { "id": 4, "name": "Mercedes QuickFix - Kochi", "phone": "+91 9845764444" }
+          ]
+        },
+        {
+          "name": "Trivandrum",
+          "support": [
+            { "id": 1, "name": "Mercedes Service Hub - Trivandrum", "phone": "+91 9945765555" },
+            { "id": 2, "name": "Mercedes AutoFix - Trivandrum", "phone": "+91 9956876666" },
+            { "id": 3, "name": "Mercedes Garage Pro - Trivandrum", "phone": "+91 9967987777" },
+            { "id": 4, "name": "Mercedes QuickService - Trivandrum", "phone": "+91 9978998888" }
+          ]
+        }
+      ]
+    }
+
+   
+  ]
+}
