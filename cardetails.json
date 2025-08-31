@@ -1,624 +1,390 @@
-
-   [
-    {
-      "id": 1,
-      "brand": "Tesla",
-      "model": "Model S",
-      "year": 2023,
-      "price": 5000,
-      "image": "https://images.unsplash.com/photo-1511390164239-92e528f23927",
-      "type": "Electric",
-      "features": ["Automatic", "Electric", "GPS", "Luxury"],
-      "available": true,
-      "locations": [
-        {
-          "name": "Kochi",
-          "support": [
-            { "id": 1, "name": "Tesla Service Center - Kochi", "phone": "+91 9876543210" },
-            { "id": 2, "name": "Tesla Express Garage - Kochi", "phone": "+91 9123456789" },
-            { "id": 3, "name": "Tesla AutoCare - Kochi", "phone": "+91 9988771122" },
-            { "id": 4, "name": "Tesla QuickFix - Kochi", "phone": "+91 9876512345" }
-          ]
-        },
-        {
-          "name": "Trivandrum",
-          "support": [
-            { "id": 1, "name": "Tesla Service Hub - Trivandrum", "phone": "+91 9484848484" },
-            { "id": 2, "name": "Tesla AutoFix - Trivandrum", "phone": "+91 9585858585" },
-            { "id": 3, "name": "Tesla Garage Pro - Trivandrum", "phone": "+91 9686868686" },
-            { "id": 4, "name": "Tesla QuickService - Trivandrum", "phone": "+91 9787878787" }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "brand": "BMW",
-      "model": "X5",
-      "year": 2022,
-      "price": 4000,
-      "image": "https://images.unsplash.com/photo-1583121274602-3e2820c69888",
-      "type": "SUV",
-      "features": ["Diesel", "Automatic", "Sunroof", "Luxury"],
-      "available": true,
-      "locations": [
-        {
-          "name": "Kochi",
-          "support": [
-            { "id": 1, "name": "BMW Service Center - Kochi", "phone": "+91 9876543210" },
-            { "id": 2, "name": "BMW Express Garage - Kochi", "phone": "+91 9123456789" },
-            { "id": 3, "name": "BMW AutoCare - Kochi", "phone": "+91 9988771122" },
-            { "id": 4, "name": "BMW QuickFix - Kochi", "phone": "+91 9876512345" }
-          ]
-        },
-        {
-          "name": "Trivandrum",
-          "support": [
-            { "id": 1, "name": "BMW Service Hub - Trivandrum", "phone": "+91 9484848484" },
-            { "id": 2, "name": "BMW AutoFix - Trivandrum", "phone": "+91 9585858585" },
-            { "id": 3, "name": "BMW Garage Pro - Trivandrum", "phone": "+91 9686868686" },
-            { "id": 4, "name": "BMW QuickService - Trivandrum", "phone": "+91 9787878787" }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "brand": "Audi",
-      "model": "A6",
-      "year": 2021,
-      "price": 3500,
-      "image": "https://images.unsplash.com/photo-1503736334956-4c8f8e92946d",
-      "type": "Sedan",
-      "features": ["Petrol", "Automatic", "Luxury", "Bluetooth"],
-      "available": false,
-      "locations": [
-        {
-          "name": "Kochi",
-          "support": [
-            { "id": 1, "name": "Audi Service Center - Kochi", "phone": "+91 9876543210" },
-            { "id": 2, "name": "Audi Express Garage - Kochi", "phone": "+91 9123456789" },
-            { "id": 3, "name": "Audi AutoCare - Kochi", "phone": "+91 9988771122" },
-            { "id": 4, "name": "Audi QuickFix - Kochi", "phone": "+91 9876512345" }
-          ]
-        },
-        {
-          "name": "Trivandrum",
-          "support": [
-            { "id": 1, "name": "Audi Service Hub - Trivandrum", "phone": "+91 9484848484" },
-            { "id": 2, "name": "Audi AutoFix - Trivandrum", "phone": "+91 9585858585" },
-            { "id": 3, "name": "Audi Garage Pro - Trivandrum", "phone": "+91 9686868686" },
-            { "id": 4, "name": "Audi QuickService - Trivandrum", "phone": "+91 9787878787" }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "brand": "Mercedes",
-      "model": "C-Class",
-      "year": 2022,
-      "price": 4500,
-      "image": "https://images.unsplash.com/photo-1525609004556-c46c7d6cf023",
-      "type": "Sedan",
-      "features": ["Diesel", "Automatic", "Luxury", "Safety"],
-      "available": true,
-      "locations": [
-        {
-          "name": "Kochi",
-          "support": [
-            { "id": 1, "name": "Mercedes Service Center - Kochi", "phone": "+91 9876543210" },
-            { "id": 2, "name": "Mercedes Express Garage - Kochi", "phone": "+91 9123456789" },
-            { "id": 3, "name": "Mercedes AutoCare - Kochi", "phone": "+91 9988771122" },
-            { "id": 4, "name": "Mercedes QuickFix - Kochi", "phone": "+91 9876512345" }
-          ]
-        },
-        {
-          "name": "Trivandrum",
-          "support": [
-            { "id": 1, "name": "Mercedes Service Hub - Trivandrum", "phone": "+91 9484848484" },
-            { "id": 2, "name": "Mercedes AutoFix - Trivandrum", "phone": "+91 9585858585" },
-            { "id": 3, "name": "Mercedes Garage Pro - Trivandrum", "phone": "+91 9686868686" },
-            { "id": 4, "name": "Mercedes QuickService - Trivandrum", "phone": "+91 9787878787" }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "brand": "Ford",
-      "model": "Mustang",
-      "year": 2023,
-      "price": 1500,
-      "image": "https://images.unsplash.com/photo-1502877338535-766e1452684a",
-      "type": "Sports",
-      "features": ["Gasoline", "Convertible", "Premium Audio", "Leather"],
-      "available": true,
-      "locations": [
-        {
-          "name": "Kochi",
-          "support": [
-            { "id": 1, "name": "Ford Service Center - Kochi", "phone": "+91 9876543210" },
-            { "id": 2, "name": "Ford Express Garage - Kochi", "phone": "+91 9123456789" },
-            { "id": 3, "name": "Ford AutoCare - Kochi", "phone": "+91 9988771122" },
-            { "id": 4, "name": "Ford QuickFix - Kochi", "phone": "+91 9876512345" }
-          ]
-        },
-        {
-          "name": "Trivandrum",
-          "support": [
-            { "id": 1, "name": "Ford Service Hub - Trivandrum", "phone": "+91 9484848484" },
-            { "id": 2, "name": "Ford AutoFix - Trivandrum", "phone": "+91 9585858585" },
-            { "id": 3, "name": "Ford Garage Pro - Trivandrum", "phone": "+91 9686868686" },
-            { "id": 4, "name": "Ford QuickService - Trivandrum", "phone": "+91 9787878787" }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "brand": "Toyota",
-      "model": "Fortuner",
-      "year": 2021,
-      "price": 2200,
-      "image": "https://images.unsplash.com/photo-1605559424843-9f64c96bda9b",
-      "type": "SUV",
-      "features": ["Diesel", "Automatic", "7-Seater", "Safety"],
-      "available": true,
-      "locations": [
-        {
-          "name": "Kochi",
-          "support": [
-            { "id": 1, "name": "Toyota Service Center - Kochi", "phone": "+91 9812345678" },
-            { "id": 2, "name": "Toyota Express Garage - Kochi", "phone": "+91 9823456789" },
-            { "id": 3, "name": "Toyota AutoCare - Kochi", "phone": "+91 9834567890" },
-            { "id": 4, "name": "Toyota QuickFix - Kochi", "phone": "+91 9845678901" }
-          ]
-        },
-        {
-          "name": "Trivandrum",
-          "support": [
-            { "id": 1, "name": "Toyota Service Hub - Trivandrum", "phone": "+91 9945678901" },
-            { "id": 2, "name": "Toyota AutoFix - Trivandrum", "phone": "+91 9956789012" },
-            { "id": 3, "name": "Toyota Garage Pro - Trivandrum", "phone": "+91 9967890123" },
-            { "id": 4, "name": "Toyota QuickService - Trivandrum", "phone": "+91 9978901234" }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 7,
-      "brand": "Hyundai",
-      "model": "Creta",
-      "year": 2022,
-      "price": 1800,
-      "image": "https://images.unsplash.com/photo-1602868084936-9d6eced0419d",
-      "type": "SUV",
-      "features": ["Petrol", "Manual", "Bluetooth", "Comfort"],
-      "available": false,
-      "locations": [
-        {
-          "name": "Kochi",
-          "support": [
-            { "id": 1, "name": "Hyundai Service Center - Kochi", "phone": "+91 9812341111" },
-            { "id": 2, "name": "Hyundai Express Garage - Kochi", "phone": "+91 9823452222" },
-            { "id": 3, "name": "Hyundai AutoCare - Kochi", "phone": "+91 9834563333" },
-            { "id": 4, "name": "Hyundai QuickFix - Kochi", "phone": "+91 9845674444" }
-          ]
-        },
-        {
-          "name": "Trivandrum",
-          "support": [
-            { "id": 1, "name": "Hyundai Service Hub - Trivandrum", "phone": "+91 9945675555" },
-            { "id": 2, "name": "Hyundai AutoFix - Trivandrum", "phone": "+91 9956786666" },
-            { "id": 3, "name": "Hyundai Garage Pro - Trivandrum", "phone": "+91 9967897777" },
-            { "id": 4, "name": "Hyundai QuickService - Trivandrum", "phone": "+91 9978908888" }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 8,
-      "brand": "Honda",
-      "model": "City",
-      "year": 2020,
-      "price": 1600,
-      "image": "https://images.unsplash.com/photo-1597007634732-3dbeedbb8d07",
-      "type": "Sedan",
-      "features": ["Petrol", "Automatic", "Comfort", "Safety"],
-      "available": true,
-      "locations": [
-        {
-          "name": "Kochi",
-          "support": [
-            { "id": 1, "name": "Honda Service Center - Kochi", "phone": "+91 9812311111" },
-            { "id": 2, "name": "Honda Express Garage - Kochi", "phone": "+91 9823422222" },
-            { "id": 3, "name": "Honda AutoCare - Kochi", "phone": "+91 9834533333" },
-            { "id": 4, "name": "Honda QuickFix - Kochi", "phone": "+91 9845644444" }
-          ]
-        },
-        {
-          "name": "Trivandrum",
-          "support": [
-            { "id": 1, "name": "Honda Service Hub - Trivandrum", "phone": "+91 9945655555" },
-            { "id": 2, "name": "Honda AutoFix - Trivandrum", "phone": "+91 9956766666" },
-            { "id": 3, "name": "Honda Garage Pro - Trivandrum", "phone": "+91 9967877777" },
-            { "id": 4, "name": "Honda QuickService - Trivandrum", "phone": "+91 9978988888" }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 9,
-      "brand": "Kia",
-      "model": "Seltos",
-      "year": 2021,
-      "price": 1700,
-      "image": "https://images.unsplash.com/photo-1618782360157-f16b8464470d",
-      "type": "SUV",
-      "features": ["Diesel", "Automatic", "Luxury", "Safety"],
-      "available": true,
-      "locations": [
-        {
-          "name": "Kochi",
-          "support": [
-            { "id": 1, "name": "Kia Service Center - Kochi", "phone": "+91 9812321111" },
-            { "id": 2, "name": "Kia Express Garage - Kochi", "phone": "+91 9823432222" },
-            { "id": 3, "name": "Kia AutoCare - Kochi", "phone": "+91 9834543333" },
-            { "id": 4, "name": "Kia QuickFix - Kochi", "phone": "+91 9845654444" }
-          ]
-        },
-        {
-          "name": "Trivandrum",
-          "support": [
-            { "id": 1, "name": "Kia Service Hub - Trivandrum", "phone": "+91 9945665555" },
-            { "id": 2, "name": "Kia AutoFix - Trivandrum", "phone": "+91 9956776666" },
-            { "id": 3, "name": "Kia Garage Pro - Trivandrum", "phone": "+91 9967887777" },
-            { "id": 4, "name": "Kia QuickService - Trivandrum", "phone": "+91 9978998888" }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 10,
-      "brand": "Nissan",
-      "model": "Magnite",
-      "year": 2022,
-      "price": 1500,
-      "image": "https://images.unsplash.com/photo-1621857504631-f2a5e4bb41d2",
-      "type": "Compact SUV",
-      "features": ["Petrol", "Manual", "Affordable", "Safety"],
-      "available": true,
-      "locations": [
-        {
-          "name": "Kochi",
-          "support": [
-            { "id": 1, "name": "Nissan Service Center - Kochi", "phone": "+91 9812331111" },
-            { "id": 2, "name": "Nissan Express Garage - Kochi", "phone": "+91 9823442222" },
-            { "id": 3, "name": "Nissan AutoCare - Kochi", "phone": "+91 9834553333" },
-            { "id": 4, "name": "Nissan QuickFix - Kochi", "phone": "+91 9845664444" }
-          ]
-        },
-        {
-          "name": "Trivandrum",
-          "support": [
-            { "id": 1, "name": "Nissan Service Hub - Trivandrum", "phone": "+91 9945675555" },
-            { "id": 2, "name": "Nissan AutoFix - Trivandrum", "phone": "+91 9956786666" },
-            { "id": 3, "name": "Nissan Garage Pro - Trivandrum", "phone": "+91 9967897777" },
-            { "id": 4, "name": "Nissan QuickService - Trivandrum", "phone": "+91 9978908888" }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 11,
-      "brand": "Ford",
-      "model": "EcoSport",
-      "year": 2019,
-      "price": 1600,
-      "image": "https://images.unsplash.com/photo-1614531341773-04af64d52a4d",
-      "type": "Compact SUV",
-      "features": ["Diesel", "Manual", "Safety", "Comfort"],
-      "available": false,
-      "locations": [
-        {
-          "name": "Kochi",
-          "support": [
-            { "id": 1, "name": "Ford Service Center - Kochi", "phone": "+91 9812341112" },
-            { "id": 2, "name": "Ford Express Garage - Kochi", "phone": "+91 9823452223" },
-            { "id": 3, "name": "Ford AutoCare - Kochi", "phone": "+91 9834563334" },
-            { "id": 4, "name": "Ford QuickFix - Kochi", "phone": "+91 9845674445" }
-          ]
-        },
-        {
-          "name": "Trivandrum",
-          "support": [
-            { "id": 1, "name": "Ford Service Hub - Trivandrum", "phone": "+91 9945675556" },
-            { "id": 2, "name": "Ford AutoFix - Trivandrum", "phone": "+91 9956786667" },
-            { "id": 3, "name": "Ford Garage Pro - Trivandrum", "phone": "+91 9967897778" },
-            { "id": 4, "name": "Ford QuickService - Trivandrum", "phone": "+91 9978908889" }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 12,
-      "brand": "Jeep",
-      "model": "Compass",
-      "year": 2021,
-      "price": 2500,
-      "image": "https://images.unsplash.com/photo-1602868091279-756d34b93a9f",
-      "type": "SUV",
-      "features": ["Diesel", "Automatic", "Luxury", "Off-road"],
-      "available": true,
-      "locations": [
-        {
-          "name": "Kochi",
-          "support": [
-            { "id": 1, "name": "Jeep Service Center - Kochi", "phone": "+91 9812351111" },
-            { "id": 2, "name": "Jeep Express Garage - Kochi", "phone": "+91 9823462222" },
-            { "id": 3, "name": "Jeep AutoCare - Kochi", "phone": "+91 9834573333" },
-            { "id": 4, "name": "Jeep QuickFix - Kochi", "phone": "+91 9845684444" }
-          ]
-        },
-        {
-          "name": "Trivandrum",
-          "support": [
-            { "id": 1, "name": "Jeep Service Hub - Trivandrum", "phone": "+91 9945685555" },
-            { "id": 2, "name": "Jeep AutoFix - Trivandrum", "phone": "+91 9956796666" },
-            { "id": 3, "name": "Jeep Garage Pro - Trivandrum", "phone": "+91 9967907777" },
-            { "id": 4, "name": "Jeep QuickService - Trivandrum", "phone": "+91 9978918888" }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 13,
-      "brand": "Volkswagen",
-      "model": "Polo",
-      "year": 2020,
-      "price": 1400,
-      "image": "https://images.unsplash.com/photo-1583445095369-fb49e944c9d2",
-      "type": "Hatchback",
-      "features": ["Petrol", "Manual", "Compact", "Comfort"],
-      "available": true,
-      "locations": [
-        {
-          "name": "Kochi",
-          "support": [
-            { "id": 1, "name": "Volkswagen Service Center - Kochi", "phone": "+91 9812361111" },
-            { "id": 2, "name": "Volkswagen Express Garage - Kochi", "phone": "+91 9823472222" },
-            { "id": 3, "name": "Volkswagen AutoCare - Kochi", "phone": "+91 9834583333" },
-            { "id": 4, "name": "Volkswagen QuickFix - Kochi", "phone": "+91 9845694444" }
-          ]
-        },
-        {
-          "name": "Trivandrum",
-          "support": [
-            { "id": 1, "name": "Volkswagen Service Hub - Trivandrum", "phone": "+91 9945695555" },
-            { "id": 2, "name": "Volkswagen AutoFix - Trivandrum", "phone": "+91 9956806666" },
-            { "id": 3, "name": "Volkswagen Garage Pro - Trivandrum", "phone": "+91 9967917777" },
-            { "id": 4, "name": "Volkswagen QuickService - Trivandrum", "phone": "+91 9978928888" }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 14,
-      "brand": "Renault",
-      "model": "Kwid",
-      "year": 2021,
-      "price": 1200,
-      "image": "https://images.unsplash.com/photo-1605559445635-5e6c40e0eb20",
-      "type": "Hatchback",
-      "features": ["Petrol", "Manual", "Affordable", "Compact"],
-      "available": true,
-      "locations": [
-        {
-          "name": "Kochi",
-          "support": [
-            { "id": 1, "name": "Renault Service Center - Kochi", "phone": "+91 9812371111" },
-            { "id": 2, "name": "Renault Express Garage - Kochi", "phone": "+91 9823482222" },
-            { "id": 3, "name": "Renault AutoCare - Kochi", "phone": "+91 9834593333" },
-            { "id": 4, "name": "Renault QuickFix - Kochi", "phone": "+91 9845704444" }
-          ]
-        },
-        {
-          "name": "Trivandrum",
-          "support": [
-            { "id": 1, "name": "Renault Service Hub - Trivandrum", "phone": "+91 9945705555" },
-            { "id": 2, "name": "Renault AutoFix - Trivandrum", "phone": "+91 9956816666" },
-            { "id": 3, "name": "Renault Garage Pro - Trivandrum", "phone": "+91 9967927777" },
-            { "id": 4, "name": "Renault QuickService - Trivandrum", "phone": "+91 9978938888" }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 15,
-      "brand": "Skoda",
-      "model": "Octavia",
-      "year": 2019,
-      "price": 2000,
-      "image": "https://images.unsplash.com/photo-1597007577993-1e1982f4f6e6",
-      "type": "Sedan",
-      "features": ["Diesel", "Automatic", "Luxury", "Safety"],
-      "available": false,
-      "locations": [
-        {
-          "name": "Kochi",
-          "support": [
-            { "id": 1, "name": "Skoda Service Center - Kochi", "phone": "+91 9812381111" },
-            { "id": 2, "name": "Skoda Express Garage - Kochi", "phone": "+91 9823492222" },
-            { "id": 3, "name": "Skoda AutoCare - Kochi", "phone": "+91 9834603333" },
-            { "id": 4, "name": "Skoda QuickFix - Kochi", "phone": "+91 9845714444" }
-          ]
-        },
-        {
-          "name": "Trivandrum",
-          "support": [
-            { "id": 1, "name": "Skoda Service Hub - Trivandrum", "phone": "+91 9945715555" },
-            { "id": 2, "name": "Skoda AutoFix - Trivandrum", "phone": "+91 9956826666" },
-            { "id": 3, "name": "Skoda Garage Pro - Trivandrum", "phone": "+91 9967937777" },
-            { "id": 4, "name": "Skoda QuickService - Trivandrum", "phone": "+91 9978948888" }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 16,
-      "brand": "Nissan",
-      "model": "Magnite",
-      "year": 2022,
-      "price": 1500,
-      "image": "https://images.unsplash.com/photo-1617098851551-fc3cb18e2850",
-      "type": "Compact SUV",
-      "features": ["Petrol", "Manual", "Budget", "Safety"],
-      "available": true,
-      "locations": [
-        {
-          "name": "Kochi",
-          "support": [
-            { "id": 1, "name": "Nissan Service Center - Kochi", "phone": "+91 9812391111" },
-            { "id": 2, "name": "Nissan Express Garage - Kochi", "phone": "+91 9823502222" },
-            { "id": 3, "name": "Nissan AutoCare - Kochi", "phone": "+91 9834613333" },
-            { "id": 4, "name": "Nissan QuickFix - Kochi", "phone": "+91 9845724444" }
-          ]
-        },
-        {
-          "name": "Trivandrum",
-          "support": [
-            { "id": 1, "name": "Nissan Service Hub - Trivandrum", "phone": "+91 9945725555" },
-            { "id": 2, "name": "Nissan AutoFix - Trivandrum", "phone": "+91 9956836666" },
-            { "id": 3, "name": "Nissan Garage Pro - Trivandrum", "phone": "+91 9967947777" },
-            { "id": 4, "name": "Nissan QuickService - Trivandrum", "phone": "+91 9978958888" }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 17,
-      "brand": "Kia",
-      "model": "Seltos",
-      "year": 2021,
-      "price": 2200,
-      "image": "https://images.unsplash.com/photo-1592813630417-91f9e6a07e49",
-      "type": "SUV",
-      "features": ["Diesel", "Automatic", "Luxury", "Comfort"],
-      "available": true,
-      "locations": [
-        {
-          "name": "Kochi",
-          "support": [
-            { "id": 1, "name": "Kia Service Center - Kochi", "phone": "+91 9812401111" },
-            { "id": 2, "name": "Kia Express Garage - Kochi", "phone": "+91 9823512222" },
-            { "id": 3, "name": "Kia AutoCare - Kochi", "phone": "+91 9834623333" },
-            { "id": 4, "name": "Kia QuickFix - Kochi", "phone": "+91 9845734444" }
-          ]
-        },
-        {
-          "name": "Trivandrum",
-          "support": [
-            { "id": 1, "name": "Kia Service Hub - Trivandrum", "phone": "+91 9945735555" },
-            { "id": 2, "name": "Kia AutoFix - Trivandrum", "phone": "+91 9956846666" },
-            { "id": 3, "name": "Kia Garage Pro - Trivandrum", "phone": "+91 9967957777" },
-            { "id": 4, "name": "Kia QuickService - Trivandrum", "phone": "+91 9978968888" }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 18,
-      "brand": "MG",
-      "model": "Hector",
-      "year": 2020,
-      "price": 2300,
-      "image": "https://images.unsplash.com/photo-1605559782890-f1fba07f92f3",
-      "type": "SUV",
-      "features": ["Petrol", "Automatic", "Smart Features", "Luxury"],
-      "available": false,
-      "locations": [
-        {
-          "name": "Kochi",
-          "support": [
-            { "id": 1, "name": "MG Service Center - Kochi", "phone": "+91 9812411111" },
-            { "id": 2, "name": "MG Express Garage - Kochi", "phone": "+91 9823522222" },
-            { "id": 3, "name": "MG AutoCare - Kochi", "phone": "+91 9834633333" },
-            { "id": 4, "name": "MG QuickFix - Kochi", "phone": "+91 9845744444" }
-          ]
-        },
-        {
-          "name": "Trivandrum",
-          "support": [
-            { "id": 1, "name": "MG Service Hub - Trivandrum", "phone": "+91 9945745555" },
-            { "id": 2, "name": "MG AutoFix - Trivandrum", "phone": "+91 9956856666" },
-            { "id": 3, "name": "MG Garage Pro - Trivandrum", "phone": "+91 9967967777" },
-            { "id": 4, "name": "MG QuickService - Trivandrum", "phone": "+91 9978978888" }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 19,
-      "brand": "Audi",
-      "model": "Q7",
-      "year": 2021,
-      "price": 5000,
-      "image": "https://images.unsplash.com/photo-1597007237062-8a7f8a91b7d1",
-      "type": "Luxury SUV",
-      "features": ["Diesel", "Automatic", "Premium", "Comfort"],
-      "available": true,
-      "locations": [
-        {
-          "name": "Kochi",
-          "support": [
-            { "id": 1, "name": "Audi Service Center - Kochi", "phone": "+91 9812421111" },
-            { "id": 2, "name": "Audi Express Garage - Kochi", "phone": "+91 9823532222" },
-            { "id": 3, "name": "Audi AutoCare - Kochi", "phone": "+91 9834643333" },
-            { "id": 4, "name": "Audi QuickFix - Kochi", "phone": "+91 9845754444" }
-          ]
-        },
-        {
-          "name": "Trivandrum",
-          "support": [
-            { "id": 1, "name": "Audi Service Hub - Trivandrum", "phone": "+91 9945755555" },
-            { "id": 2, "name": "Audi AutoFix - Trivandrum", "phone": "+91 9956866666" },
-            { "id": 3, "name": "Audi Garage Pro - Trivandrum", "phone": "+91 9967977777" },
-            { "id": 4, "name": "Audi QuickService - Trivandrum", "phone": "+91 9978988888" }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 20,
-      "brand": "Mercedes-Benz",
-      "model": "GLA",
-      "year": 2022,
-      "price": 5500,
-      "image": "https://images.unsplash.com/photo-1602865895873-9d3c5a4e5c9a",
-      "type": "Luxury SUV",
-      "features": ["Petrol", "Automatic", "Premium", "Safety"],
-      "available": true,
-      "locations": [
-        {
-          "name": "Kochi",
-          "support": [
-            { "id": 1, "name": "Mercedes Service Center - Kochi", "phone": "+91 9812431111" },
-            { "id": 2, "name": "Mercedes Express Garage - Kochi", "phone":"+91 9823542222" },
-            { "id": 3, "name": "Mercedes AutoCare - Kochi", "phone": "+91 9834653333" },
-            { "id": 4, "name": "Mercedes QuickFix - Kochi", "phone": "+91 9876542331" }
-          ]
-        },
-        {
-          "name": "Trivandrum",
-          "support": [
-            { "id": 1, "name": "Mercedes Service Hub - Trivandrum", "phone": "+91 9945765555" },
-            { "id": 2, "name": "Mercedes AutoFix - Trivandrum", "phone": "+91 9956876666" },
-            { "id": 3, "name": "Mercedes Garage Pro - Trivandrum", "phone": "+91 9967987777" },
-            { "id": 4, "name": "Mercedes QuickService - Trivandrum", "phone": "+91 9978998888" }
-          ]
-        }
-      ]
-    }
-  ]
-
+[
+  {
+    "id": 1,
+    "brand": "Toyota",
+    "model": "Corolla",
+    "year": 2022,
+    "price": 1800,
+    "image": "https://cdn.pixabay.com/photo/2012/05/29/00/43/car-49278_640.jpg",
+    "type": "Sedan",
+    "features": ["Petrol", "Automatic", "Comfort"],
+    "available": true,
+    "locations": [
+      {
+        "name": "Kochi",
+        "support": [
+          { "id": 1, "name": "Toyota Service - Kochi", "phone": "+91 9812341111" },
+          { "id": 2, "name": "Toyota AutoCare - Kochi", "phone": "+91 9823452222" }
+        ]
+      },
+      {
+        "name": "Trivandrum",
+        "support": [
+          { "id": 1, "name": "Toyota Service - TVM", "phone": "+91 9834563333" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "brand": "Mercedes-Benz",
+    "model": "GLA",
+    "year": 2022,
+    "price": 5500,
+    "image": "https://images.unsplash.com/photo-1602865895873-9d3c5a4e5c9a",
+    "type": "Luxury SUV",
+    "features": ["Diesel", "Automatic", "Premium", "Safety"],
+    "available": true,
+    "locations": [
+      {
+        "name": "Kochi",
+        "support": [
+          { "id": 1, "name": "Mercedes Service - Kochi", "phone": "+91 9812431111" },
+          { "id": 2, "name": "Mercedes Express - Kochi", "phone": "+91 9823542222" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "brand": "Honda",
+    "model": "Civic",
+    "year": 2021,
+    "price": 2000,
+    "image": "https://images.unsplash.com/photo-1502877338535-766e1452684a",
+    "type": "Sedan",
+    "features": ["Petrol", "Manual", "Eco"],
+    "available": false,
+    "locations": [
+      {
+        "name": "Chennai",
+        "support": [
+          { "id": 1, "name": "Honda Care - Chennai", "phone": "+91 9845671111" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "brand": "BMW",
+    "model": "X5",
+    "year": 2023,
+    "price": 6000,
+    "image": "https://images.unsplash.com/photo-1605559424843-9a2c7f8e894d",
+    "type": "Luxury SUV",
+    "features": ["Diesel", "Automatic", "Premium", "Luxury"],
+    "available": true,
+    "locations": [
+      {
+        "name": "Bangalore",
+        "support": [
+          { "id": 1, "name": "BMW Service - BLR", "phone": "+91 9856782222" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "brand": "Audi",
+    "model": "A6",
+    "year": 2022,
+    "price": 4800,
+    "image": "https://images.unsplash.com/photo-1583121274608-1d5f92b26a05",
+    "type": "Sedan",
+    "features": ["Petrol", "Automatic", "Luxury"],
+    "available": true,
+    "locations": [
+      {
+        "name": "Mumbai",
+        "support": [
+          { "id": 1, "name": "Audi Service - Mumbai", "phone": "+91 9876541111" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "brand": "Tesla",
+    "model": "Model 3",
+    "year": 2023,
+    "price": 7500,
+    "image": "https://images.unsplash.com/photo-1610465299995-84a9c1b1e7e3",
+    "type": "Electric",
+    "features": ["Electric", "Automatic", "Autopilot"],
+    "available": true,
+    "locations": [
+      {
+        "name": "Delhi",
+        "support": [
+          { "id": 1, "name": "Tesla Service - Delhi", "phone": "+91 9812377777" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "brand": "Ford",
+    "model": "Mustang",
+    "year": 2021,
+    "price": 4500,
+    "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70",
+    "type": "Sports",
+    "features": ["Petrol", "Manual", "Performance"],
+    "available": false,
+    "locations": [
+      {
+        "name": "Pune",
+        "support": [
+          { "id": 1, "name": "Ford Care - Pune", "phone": "+91 9865421111" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "brand": "Hyundai",
+    "model": "Creta",
+    "year": 2022,
+    "price": 2200,
+    "image": "https://images.unsplash.com/photo-1602865895873-9d3c5a4e5c9a",
+    "type": "SUV",
+    "features": ["Diesel", "Automatic", "Family"],
+    "available": true,
+    "locations": [
+      {
+        "name": "Hyderabad",
+        "support": [
+          { "id": 1, "name": "Hyundai Service - HYD", "phone": "+91 9812366666" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "brand": "Kia",
+    "model": "Seltos",
+    "year": 2021,
+    "price": 2500,
+    "image": "https://images.unsplash.com/photo-1597000981219-20e5e9c3b8a4",
+    "type": "SUV",
+    "features": ["Petrol", "Automatic", "Compact"],
+    "available": true,
+    "locations": [
+      {
+        "name": "Chennai",
+        "support": [
+          { "id": 1, "name": "Kia Service - Chennai", "phone": "+91 9823499999" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "brand": "Chevrolet",
+    "model": "Camaro",
+    "year": 2020,
+    "price": 5000,
+    "image": "https://images.unsplash.com/photo-1549924231-f129b911e442",
+    "type": "Sports",
+    "features": ["Petrol", "Manual", "Racing"],
+    "available": false,
+    "locations": [
+      {
+        "name": "Kolkata",
+        "support": [
+          { "id": 1, "name": "Chevy Care - Kolkata", "phone": "+91 9812355555" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "brand": "Nissan",
+    "model": "Altima",
+    "year": 2021,
+    "price": 2700,
+    "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d",
+    "type": "Sedan",
+    "features": ["Petrol", "Automatic"],
+    "available": true,
+    "locations": [
+      {
+        "name": "Delhi",
+        "support": [
+          { "id": 1, "name": "Nissan Service - Delhi", "phone": "+91 9876500000" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "brand": "Jeep",
+    "model": "Compass",
+    "year": 2022,
+    "price": 3200,
+    "image": "https://images.unsplash.com/photo-1597000981219-20e5e9c3b8a4",
+    "type": "SUV",
+    "features": ["Diesel", "Automatic", "Offroad"],
+    "available": true,
+    "locations": [
+      {
+        "name": "Goa",
+        "support": [
+          { "id": 1, "name": "Jeep Service - Goa", "phone": "+91 9812344444" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "brand": "Volkswagen",
+    "model": "Passat",
+    "year": 2021,
+    "price": 2800,
+    "image": "https://images.unsplash.com/photo-1503736334956-4c8f8e92946d",
+    "type": "Sedan",
+    "features": ["Petrol", "Automatic", "Comfort"],
+    "available": false,
+    "locations": [
+      {
+        "name": "Chandigarh",
+        "support": [
+          { "id": 1, "name": "VW Service - Chandigarh", "phone": "+91 9812333333" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "brand": "Renault",
+    "model": "Duster",
+    "year": 2020,
+    "price": 1900,
+    "image": "https://images.unsplash.com/photo-1597000981219-20e5e9c3b8a4",
+    "type": "SUV",
+    "features": ["Diesel", "Manual", "Offroad"],
+    "available": true,
+    "locations": [
+      {
+        "name": "Jaipur",
+        "support": [
+          { "id": 1, "name": "Renault Service - Jaipur", "phone": "+91 9812322222" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "brand": "Skoda",
+    "model": "Octavia",
+    "year": 2021,
+    "price": 2600,
+    "image": "https://images.unsplash.com/photo-1511397460565-498c239c9f9c",
+    "type": "Sedan",
+    "features": ["Petrol", "Automatic"],
+    "available": true,
+    "locations": [
+      {
+        "name": "Lucknow",
+        "support": [
+          { "id": 1, "name": "Skoda Service - Lucknow", "phone": "+91 9812311111" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "brand": "Jaguar",
+    "model": "XF",
+    "year": 2022,
+    "price": 7000,
+    "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70",
+    "type": "Luxury Sedan",
+    "features": ["Petrol", "Automatic", "Luxury"],
+    "available": true,
+    "locations": [
+      {
+        "name": "Delhi",
+        "support": [
+          { "id": 1, "name": "Jaguar Service - Delhi", "phone": "+91 9812300000" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "brand": "Volvo",
+    "model": "XC60",
+    "year": 2021,
+    "price": 6500,
+    "image": "https://images.unsplash.com/photo-1602865895873-9d3c5a4e5c9a",
+    "type": "Luxury SUV",
+    "features": ["Diesel", "Automatic", "Safety"],
+    "available": false,
+    "locations": [
+      {
+        "name": "Bangalore",
+        "support": [
+          { "id": 1, "name": "Volvo Service - BLR", "phone": "+91 9812399999" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "brand": "Mazda",
+    "model": "CX-5",
+    "year": 2022,
+    "price": 3000,
+    "image": "https://images.unsplash.com/photo-1597000981219-20e5e9c3b8a4",
+    "type": "SUV",
+    "features": ["Petrol", "Automatic"],
+    "available": true,
+    "locations": [
+      {
+        "name": "Chennai",
+        "support": [
+          { "id": 1, "name": "Mazda Care - Chennai", "phone": "+91 9812388888" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "brand": "Porsche",
+    "model": "Cayenne",
+    "year": 2023,
+    "price": 12000,
+    "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70",
+    "type": "Luxury SUV",
+    "features": ["Petrol", "Automatic", "Super Luxury"],
+    "available": true,
+    "locations": [
+      {
+        "name": "Mumbai",
+        "support": [
+          { "id": 1, "name": "Porsche Care - Mumbai", "phone": "+91 9812377771" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "brand": "Lamborghini",
+    "model": "Huracan",
+    "year": 2023,
+    "price": 15000,
+    "image": "https://images.unsplash.com/photo-1511397460565-498c239c9f9c",
+    "type": "Supercar",
+    "features": ["Petrol", "Automatic", "Super Luxury"],
+    "available": true,
+    "locations": [
+      {
+        "name": "Delhi",
+        "support": [
+          { "id": 1, "name": "Lamborghini Service - Delhi", "phone": "+91 9812366667" }
+        ]
+      }
+    ]
+  }
+]
