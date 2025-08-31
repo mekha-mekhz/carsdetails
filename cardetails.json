@@ -1,5 +1,4 @@
-{
-  "cars":[
+[
     {
       "id": 1,
       "brand": "Tesla",
@@ -606,4 +605,10 @@
             { "id": 1, "name": "Mercedes Service Center - Kochi", "phone": "+91 9812431111" },
             { "id": 2, "name": "Mercedes Express Garage - Kochi", "phone": "+91 9823542222" },
             { "id": 3, "name": "Mercedes AutoCare - Kochi", "phone": "+91 9834653333" },
-            { "id": 4, "name": "Mercedes QuickFix - Kochi", "phone": "+91
+            { "id": 4, "name": "Mercedes QuickFix - Kochi", "phone": "+91 9876542331"}
+          ]
+        }
+          ]
+    }
+      ]
+
