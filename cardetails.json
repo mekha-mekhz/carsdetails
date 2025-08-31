@@ -1,4 +1,6 @@
-[
+
+{
+   [
     {
       "id": 1,
       "brand": "Tesla",
@@ -603,12 +605,21 @@
           "name": "Kochi",
           "support": [
             { "id": 1, "name": "Mercedes Service Center - Kochi", "phone": "+91 9812431111" },
-            { "id": 2, "name": "Mercedes Express Garage - Kochi", "phone": "+91 9823542222" },
+            { "id": 2, "name": "Mercedes Express Garage - Kochi", "phone":"+91 9823542222" },
             { "id": 3, "name": "Mercedes AutoCare - Kochi", "phone": "+91 9834653333" },
-            { "id": 4, "name": "Mercedes QuickFix - Kochi", "phone": "+91 9876542331"}
+            { "id": 4, "name": "Mercedes QuickFix - Kochi", "phone": "+91 9876542331" }
+          ]
+        },
+        {
+          "name": "Trivandrum",
+          "support": [
+            { "id": 1, "name": "Mercedes Service Hub - Trivandrum", "phone": "+91 9945765555" },
+            { "id": 2, "name": "Mercedes AutoFix - Trivandrum", "phone": "+91 9956876666" },
+            { "id": 3, "name": "Mercedes Garage Pro - Trivandrum", "phone": "+91 9967987777" },
+            { "id": 4, "name": "Mercedes QuickService - Trivandrum", "phone": "+91 9978998888" }
           ]
         }
-          ]
-    }
       ]
-
+    }
+  ]
+}
