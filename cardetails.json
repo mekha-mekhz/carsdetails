@@ -191,8 +191,7 @@
         ]
       }
       ]
-        "locations": ["Kochi", "Trivandrum", "Calicut","pathanamthitta","Kottayam","Idukki","Kollam",
-      "Alappuzha","palakkad","Thrissur","Kannur","Kasargod","Ernakulam"]
+       
   },
   {
     "id": 6,
@@ -224,8 +223,7 @@
         ]
       }
       ]
-        "locations": ["Kochi", "Trivandrum", "Calicut","pathanamthitta","Kottayam","Idukki","Kollam",
-      "Alappuzha","palakkad","Thrissur","Kannur","Kasargod","Ernakulam"]
+        
   },
   {
     "id": 7,
@@ -257,8 +255,7 @@
         ]
       }
       ]
-        "locations": ["Kochi", "Trivandrum", "Calicut","pathanamthitta","Kottayam","Idukki","Kollam",
-      "Alappuzha","palakkad","Thrissur","Kannur","Kasargod","Ernakulam"]
+        
   },
   {
     "id": 8,
@@ -303,8 +300,6 @@
         ]
       }
       ]
-        "locations": ["Kochi", "Trivandrum", "Calicut","pathanamthitta","Kottayam","Idukki","Kollam",
-      "Alappuzha","palakkad","Thrissur","Kannur","Kasargod","Ernakulam"]
   },
   {
     "id": 10,
@@ -336,8 +331,6 @@
         ]
       }
       ]
-        "locations": ["Kochi", "Trivandrum", "Calicut","pathanamthitta","Kottayam","Idukki","Kollam",
-      "Alappuzha","palakkad","Thrissur","Kannur","Kasargod","Ernakulam"]
   },
   {
     "id": 11,
@@ -382,9 +375,7 @@
         ]
       }
       ]
-        "locations": ["Kochi", "Trivandrum", "Calicut","pathanamthitta","Kottayam","Idukki","Kollam",
-      "Alappuzha","palakkad","Thrissur","Kannur"]
-  },
+       
   {
     "id": 13,
     "brand": "Volkswagen",
@@ -415,8 +406,7 @@
         ]
       }
       ]
-        "locations": ["Kochi", "Trivandrum", "Calicut","pathanamthitta","Kottayam","Idukki","Kollam",
-      "Alappuzha","palakkad","Thrissur","Kannur","Kasargod","Ernakulam"]
+       
   },
   {
     "id": 14,
@@ -448,8 +438,7 @@
         ]
       }
       ]
-        "locations": ["Kochi", "Trivandrum", "Calicut","Idukki","Kollam",
-      "Alappuzha","palakkad","Thrissur","Kannur","Kasargod","Ernakulam"]
+        
   },
   {
     "id": 15,
@@ -481,8 +470,6 @@
         ]
       }
       ]
-        "locations": ["Kochi", "Trivandrum", "Calicut","pathanamthitta","Kottayam","Idukki","Kollam",
-      "Alappuzha","palakkad","Thrissur","Kannur","Kasargod","Ernakulam"]
   },
   {
     "id": 16,
@@ -514,8 +501,7 @@
         ]
       }
       ]
-        "locations": ["Kochi", "Trivandrum", "Calicut","pathanamthitta","Kottayam","Idukki","Kollam",
-      "Alappuzha","palakkad","Thrissur","Kannur","Kasargod","Ernakulam"]
+        
   },
   {
     "id": 17,
@@ -531,25 +517,23 @@
        {
        "name":"Kochi",
        "support":[
-        { "id": 1, "name": "Tesla Service Center - Kochi", "phone": "+91 9876543210" },
-          { "id": 2, "name": "Tesla Express Garage - Kochi", "phone": "+91 9123456789" },
-          { "id": 3, "name": "Tesla AutoCare - Kochi", "phone": "+91 9988771122" },
-          { "id": 4, "name": "Tesla QuickFix - Kochi", "phone": "+91 9876512345" }
+        { "id": 1, "name": "Lexus Service Center - Kochi", "phone": "+91 9876543210" },
+          { "id": 2, "name": "Lexus Express Garage - Kochi", "phone": "+91 9123456789" },
+          { "id": 3, "name": "Lexus AutoCare - Kochi", "phone": "+91 9988771122" },
+          { "id": 4, "name": "Lexus QuickFix - Kochi", "phone": "+91 9876512345" }
     ]
        },
         {
         "name": "Trivandrum",
         "support": [
-          { "id": 1, "name": "Tesla Service Hub - Trivandrum", "phone": "+91 9484848484" },
-          { "id": 2, "name": "Tesla AutoFix - Trivandrum", "phone": "+91 9585858585" },
-          { "id": 3, "name": "Tesla Garage Pro - Trivandrum", "phone": "+91 9686868686" },
-          { "id": 4, "name": "Tesla QuickService - Trivandrum", "phone": "+91 9787878787" }
+          { "id": 1, "name": "Lexus Service Hub - Trivandrum", "phone": "+91 9484848484" },
+          { "id": 2, "name": "Lexus AutoFix - Trivandrum", "phone": "+91 9585858585" },
+          { "id": 3, "name": "Lexus Garage Pro - Trivandrum", "phone": "+91 9686868686" },
+          { "id": 4, "name": "Lexus QuickService - Trivandrum", "phone": "+91 9787878787" }
         ]
       }
       ]
-        "locations": ["Kochi", "Trivandrum", "Calicut","pathanamthitta","Kottayam","Idukki","Kollam",
-      "Alappuzha","palakkad","Thrissur","Kannur","Kasargod","Ernakulam"]
-  },
+        
   {
     "id": 18,
     "brand": "Jaguar",
@@ -564,24 +548,23 @@
        {
        "name":"Kochi",
        "support":[
-        { "id": 1, "name": "Tesla Service Center - Kochi", "phone": "+91 9876543210" },
-          { "id": 2, "name": "Tesla Express Garage - Kochi", "phone": "+91 9123456789" },
-          { "id": 3, "name": "Tesla AutoCare - Kochi", "phone": "+91 9988771122" },
-          { "id": 4, "name": "Tesla QuickFix - Kochi", "phone": "+91 9876512345" }
+        { "id": 1, "name": "Jaguar Service Center - Kochi", "phone": "+91 9876543210" },
+          { "id": 2, "name": " Jaguar Express Garage - Kochi", "phone": "+91 9123456789" },
+          { "id": 3, "name": "Jaguar AutoCare - Kochi", "phone": "+91 9988771122" },
+          { "id": 4, "name": "Jaguar QuickFix - Kochi", "phone": "+91 9876512345" }
     ]
        },
         {
         "name": "Trivandrum",
         "support": [
-          { "id": 1, "name": "Tesla Service Hub - Trivandrum", "phone": "+91 9484848484" },
-          { "id": 2, "name": "Tesla AutoFix - Trivandrum", "phone": "+91 9585858585" },
-          { "id": 3, "name": "Tesla Garage Pro - Trivandrum", "phone": "+91 9686868686" },
-          { "id": 4, "name": "Tesla QuickService - Trivandrum", "phone": "+91 9787878787" }
+          { "id": 1, "name": "Jaguar Service Hub - Trivandrum", "phone": "+91 9484848484" },
+          { "id": 2, "name": "Jaguar AutoFix - Trivandrum", "phone": "+91 9585858585" },
+          { "id": 3, "name": "Jaguar Garage Pro - Trivandrum", "phone": "+91 9686868686" },
+          { "id": 4, "name": "Jaguar QuickService - Trivandrum", "phone": "+91 9787878787" }
         ]
       }
       ]
-        "locations": ["Kochi", "Trivandrum", "Calicut","pathanamthitta","Kottayam","Idukki","Kollam",
-      "Alappuzha","palakkad","Thrissur","Kannur","Kasargod","Ernakulam"]
+       
   },
   {
     "id": 19,
@@ -597,19 +580,20 @@
        {
        "name":"Kochi",
        "support":[
-        { "id": 1, "name": "Tesla Service Center - Kochi", "phone": "+91 9876543210" },
-          { "id": 2, "name": "Tesla Express Garage - Kochi", "phone": "+91 9123456789" },
-          { "id": 3, "name": "Tesla AutoCare - Kochi", "phone": "+91 9988771122" },
-          { "id": 4, "name": "Tesla QuickFix - Kochi", "phone": "+91 9876512345" }
+        { "id": 1, "name": "Range rover Service Center - Kochi", "phone": "+91 9876543210" },
+          { "id": 2, "name": "Range rover Service Center- Kochi", "phone": "+91 9123456789" },
+          { "id": 2, "name": "Range rover Service Center - Kochi", "phone": "+91 9123456789" },
+          { "id": 3, "name": "Range rover Service Center- Kochi", "phone": "+91 9988771122" },
+          { "id": 4, "name": "Range rover Service Center - Kochi", "phone": "+91 9876512345" }
     ]
        },
         {
         "name": "Trivandrum",
         "support": [
-          { "id": 1, "name": "Tesla Service Hub - Trivandrum", "phone": "+91 9484848484" },
-          { "id": 2, "name": "Tesla AutoFix - Trivandrum", "phone": "+91 9585858585" },
-          { "id": 3, "name": "Tesla Garage Pro - Trivandrum", "phone": "+91 9686868686" },
-          { "id": 4, "name": "Tesla QuickService - Trivandrum", "phone": "+91 9787878787" }
+          { "id": 1, "name": "Range rover Service Center - Trivandrum", "phone": "+91 9484848484" },
+          { "id": 2, "name": "Range rover Service Center - Trivandrum", "phone": "+91 9585858585" },
+          { "id": 3, "name": "Range rover Service Center - Trivandrum", "phone": "+91 9686868686" },
+          { "id": 4, "name": "Range rover Service Center- Trivandrum", "phone": "+91 9787878787" }
         ]
       }
       ]
@@ -639,7 +623,7 @@
         "name": "Trivandrum",
         "support": [
           { "id": 1, "name": "Chevrolet Service Hub - Trivandrum", "phone": "+91 9484848484" },
-          { "id": 2, "name": "TChevrolet AutoFix - Trivandrum", "phone": "+91 9585858585" },
+          { "id": 2, "name": "Chevrolet AutoFix - Trivandrum", "phone": "+91 9585858585" },
           { "id": 3, "name": "Chevrolet Garage Pro - Trivandrum", "phone": "+91 9686868686" },
           { "id": 4, "name": "Chevrolet QuickService - Trivandrum", "phone": "+91 9787878787" }
         ]
