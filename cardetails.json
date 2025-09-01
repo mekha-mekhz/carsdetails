@@ -31,7 +31,7 @@
     "model": "GLA",
     "year": 2022,
     "price": 5500,
-    "image": "https://images.unsplash.com/photo-1602865895873-9d3c5a4e5c9a",
+    "image": "https://images.pexels.com/photos/16714005/pexels-photo-16714005.jpeg",
     "type": "Luxury SUV",
     "features": ["Diesel", "Automatic", "Premium", "Safety"],
     "available": true,
