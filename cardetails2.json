@@ -1,0 +1,3122 @@
+[
+  {
+    "id": 1,
+    "brand": "Corolla",
+    "model": "Toyota",
+    "year": 2023,
+    "price": 2100,
+    "image": "https://images.unsplash.com/photo-1621773949475-d249b22cd1fc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGNvcm9sbGElMjB0b3lvdGF8ZW58MHx8MHx8fDA%3D",
+    "type": "Sedan",
+    "features": [
+      "Automatic",
+      "Comfort"
+    ],
+    "available": true,
+    "locations": [
+      {
+        "name": "Thiruvananthapuram",
+        "support": [
+          {
+            "id": 1,
+            "name": "Brand1 Service - Thiruvananthapuram",
+            "phone": "+91 9812310000"
+          }
+        ]
+      },
+      {
+        "name": "Kollam",
+        "support": [
+          {
+            "id": 2,
+            "name": "Brand1 Service - Kollam",
+            "phone": "+91 9812310001"
+          }
+        ]
+      },
+      {
+        "name": "Pathanamthitta",
+        "support": [
+          {
+            "id": 3,
+            "name": "Brand1 Service - Pathanamthitta",
+            "phone": "+91 9812310002"
+          }
+        ]
+      },
+      {
+        "name": "Alappuzha",
+        "support": [
+          {
+            "id": 4,
+            "name": "Brand1 Service - Alappuzha",
+            "phone": "+91 9812310003"
+          }
+        ]
+      },
+      {
+        "name": "Kottayam",
+        "support": [
+          {
+            "id": 5,
+            "name": "Brand1 Service - Kottayam",
+            "phone": "+91 9812310004"
+          }
+        ]
+      },
+      {
+        "name": "Idukki",
+        "support": [
+          {
+            "id": 6,
+            "name": "Brand1 Service - Idukki",
+            "phone": "+91 9812310005"
+          }
+        ]
+      },
+      {
+        "name": "Ernakulam",
+        "support": [
+          {
+            "id": 7,
+            "name": "Brand1 Service - Ernakulam",
+            "phone": "+91 9812310006"
+          }
+        ]
+      },
+      {
+        "name": "Thrissur",
+        "support": [
+          {
+            "id": 8,
+            "name": "Brand1 Service - Thrissur",
+            "phone": "+91 9812310007"
+          }
+        ]
+      },
+      {
+        "name": "Palakkad",
+        "support": [
+          {
+            "id": 9,
+            "name": "Brand1 Service - Palakkad",
+            "phone": "+91 9812310008"
+          }
+        ]
+      },
+      {
+        "name": "Malappuram",
+        "support": [
+          {
+            "id": 10,
+            "name": "Brand1 Service - Malappuram",
+            "phone": "+91 9812310009"
+          }
+        ]
+      },
+      {
+        "name": "Kozhikode",
+        "support": [
+          {
+            "id": 11,
+            "name": "Brand1 Service - Kozhikode",
+            "phone": "+91 9812310010"
+          }
+        ]
+      },
+      {
+        "name": "Wayanad",
+        "support": [
+          {
+            "id": 12,
+            "name": "Brand1 Service - Wayanad",
+            "phone": "+91 9812310011"
+          }
+        ]
+      },
+      {
+        "name": "Kannur",
+        "support": [
+          {
+            "id": 13,
+            "name": "Brand1 Service - Kannur",
+            "phone": "+91 9812310012"
+          }
+        ]
+      },
+      {
+        "name": "Kasaragod",
+        "support": [
+          {
+            "id": 14,
+            "name": "Brand1 Service - Kasaragod",
+            "phone": "+91 9812310013"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "brand": "Brand2",
+    "model": "Model2",
+    "year": 2022,
+    "price": 2200,
+    "image": "https://example.com/car2.jpg",
+    "type": "SUV",
+    "features": [
+      "Automatic",
+      "Comfort"
+    ],
+    "available": true,
+    "locations": [
+      {
+        "name": "Thiruvananthapuram",
+        "support": [
+          {
+            "id": 1,
+            "name": "Brand2 Service - Thiruvananthapuram",
+            "phone": "+91 9812310000"
+          }
+        ]
+      },
+      {
+        "name": "Kollam",
+        "support": [
+          {
+            "id": 2,
+            "name": "Brand2 Service - Kollam",
+            "phone": "+91 9812310001"
+          }
+        ]
+      },
+      {
+        "name": "Pathanamthitta",
+        "support": [
+          {
+            "id": 3,
+            "name": "Brand2 Service - Pathanamthitta",
+            "phone": "+91 9812310002"
+          }
+        ]
+      },
+      {
+        "name": "Alappuzha",
+        "support": [
+          {
+            "id": 4,
+            "name": "Brand2 Service - Alappuzha",
+            "phone": "+91 9812310003"
+          }
+        ]
+      },
+      {
+        "name": "Kottayam",
+        "support": [
+          {
+            "id": 5,
+            "name": "Brand2 Service - Kottayam",
+            "phone": "+91 9812310004"
+          }
+        ]
+      },
+      {
+        "name": "Idukki",
+        "support": [
+          {
+            "id": 6,
+            "name": "Brand2 Service - Idukki",
+            "phone": "+91 9812310005"
+          }
+        ]
+      },
+      {
+        "name": "Ernakulam",
+        "support": [
+          {
+            "id": 7,
+            "name": "Brand2 Service - Ernakulam",
+            "phone": "+91 9812310006"
+          }
+        ]
+      },
+      {
+        "name": "Thrissur",
+        "support": [
+          {
+            "id": 8,
+            "name": "Brand2 Service - Thrissur",
+            "phone": "+91 9812310007"
+          }
+        ]
+      },
+      {
+        "name": "Palakkad",
+        "support": [
+          {
+            "id": 9,
+            "name": "Brand2 Service - Palakkad",
+            "phone": "+91 9812310008"
+          }
+        ]
+      },
+      {
+        "name": "Malappuram",
+        "support": [
+          {
+            "id": 10,
+            "name": "Brand2 Service - Malappuram",
+            "phone": "+91 9812310009"
+          }
+        ]
+      },
+      {
+        "name": "Kozhikode",
+        "support": [
+          {
+            "id": 11,
+            "name": "Brand2 Service - Kozhikode",
+            "phone": "+91 9812310010"
+          }
+        ]
+      },
+      {
+        "name": "Wayanad",
+        "support": [
+          {
+            "id": 12,
+            "name": "Brand2 Service - Wayanad",
+            "phone": "+91 9812310011"
+          }
+        ]
+      },
+      {
+        "name": "Kannur",
+        "support": [
+          {
+            "id": 13,
+            "name": "Brand2 Service - Kannur",
+            "phone": "+91 9812310012"
+          }
+        ]
+      },
+      {
+        "name": "Kasaragod",
+        "support": [
+          {
+            "id": 14,
+            "name": "Brand2 Service - Kasaragod",
+            "phone": "+91 9812310013"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "brand": "Brand3",
+    "model": "Model3",
+    "year": 2023,
+    "price": 2300,
+    "image": "https://example.com/car3.jpg",
+    "type": "Sedan",
+    "features": [
+      "Automatic",
+      "Comfort"
+    ],
+    "available": true,
+    "locations": [
+      {
+        "name": "Thiruvananthapuram",
+        "support": [
+          {
+            "id": 1,
+            "name": "Brand3 Service - Thiruvananthapuram",
+            "phone": "+91 9812310000"
+          }
+        ]
+      },
+      {
+        "name": "Kollam",
+        "support": [
+          {
+            "id": 2,
+            "name": "Brand3 Service - Kollam",
+            "phone": "+91 9812310001"
+          }
+        ]
+      },
+      {
+        "name": "Pathanamthitta",
+        "support": [
+          {
+            "id": 3,
+            "name": "Brand3 Service - Pathanamthitta",
+            "phone": "+91 9812310002"
+          }
+        ]
+      },
+      {
+        "name": "Alappuzha",
+        "support": [
+          {
+            "id": 4,
+            "name": "Brand3 Service - Alappuzha",
+            "phone": "+91 9812310003"
+          }
+        ]
+      },
+      {
+        "name": "Kottayam",
+        "support": [
+          {
+            "id": 5,
+            "name": "Brand3 Service - Kottayam",
+            "phone": "+91 9812310004"
+          }
+        ]
+      },
+      {
+        "name": "Idukki",
+        "support": [
+          {
+            "id": 6,
+            "name": "Brand3 Service - Idukki",
+            "phone": "+91 9812310005"
+          }
+        ]
+      },
+      {
+        "name": "Ernakulam",
+        "support": [
+          {
+            "id": 7,
+            "name": "Brand3 Service - Ernakulam",
+            "phone": "+91 9812310006"
+          }
+        ]
+      },
+      {
+        "name": "Thrissur",
+        "support": [
+          {
+            "id": 8,
+            "name": "Brand3 Service - Thrissur",
+            "phone": "+91 9812310007"
+          }
+        ]
+      },
+      {
+        "name": "Palakkad",
+        "support": [
+          {
+            "id": 9,
+            "name": "Brand3 Service - Palakkad",
+            "phone": "+91 9812310008"
+          }
+        ]
+      },
+      {
+        "name": "Malappuram",
+        "support": [
+          {
+            "id": 10,
+            "name": "Brand3 Service - Malappuram",
+            "phone": "+91 9812310009"
+          }
+        ]
+      },
+      {
+        "name": "Kozhikode",
+        "support": [
+          {
+            "id": 11,
+            "name": "Brand3 Service - Kozhikode",
+            "phone": "+91 9812310010"
+          }
+        ]
+      },
+      {
+        "name": "Wayanad",
+        "support": [
+          {
+            "id": 12,
+            "name": "Brand3 Service - Wayanad",
+            "phone": "+91 9812310011"
+          }
+        ]
+      },
+      {
+        "name": "Kannur",
+        "support": [
+          {
+            "id": 13,
+            "name": "Brand3 Service - Kannur",
+            "phone": "+91 9812310012"
+          }
+        ]
+      },
+      {
+        "name": "Kasaragod",
+        "support": [
+          {
+            "id": 14,
+            "name": "Brand3 Service - Kasaragod",
+            "phone": "+91 9812310013"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "brand": "Brand4",
+    "model": "Model4",
+    "year": 2022,
+    "price": 2400,
+    "image": "https://example.com/car4.jpg",
+    "type": "SUV",
+    "features": [
+      "Automatic",
+      "Comfort"
+    ],
+    "available": true,
+    "locations": [
+      {
+        "name": "Thiruvananthapuram",
+        "support": [
+          {
+            "id": 1,
+            "name": "Brand4 Service - Thiruvananthapuram",
+            "phone": "+91 9812310000"
+          }
+        ]
+      },
+      {
+        "name": "Kollam",
+        "support": [
+          {
+            "id": 2,
+            "name": "Brand4 Service - Kollam",
+            "phone": "+91 9812310001"
+          }
+        ]
+      },
+      {
+        "name": "Pathanamthitta",
+        "support": [
+          {
+            "id": 3,
+            "name": "Brand4 Service - Pathanamthitta",
+            "phone": "+91 9812310002"
+          }
+        ]
+      },
+      {
+        "name": "Alappuzha",
+        "support": [
+          {
+            "id": 4,
+            "name": "Brand4 Service - Alappuzha",
+            "phone": "+91 9812310003"
+          }
+        ]
+      },
+      {
+        "name": "Kottayam",
+        "support": [
+          {
+            "id": 5,
+            "name": "Brand4 Service - Kottayam",
+            "phone": "+91 9812310004"
+          }
+        ]
+      },
+      {
+        "name": "Idukki",
+        "support": [
+          {
+            "id": 6,
+            "name": "Brand4 Service - Idukki",
+            "phone": "+91 9812310005"
+          }
+        ]
+      },
+      {
+        "name": "Ernakulam",
+        "support": [
+          {
+            "id": 7,
+            "name": "Brand4 Service - Ernakulam",
+            "phone": "+91 9812310006"
+          }
+        ]
+      },
+      {
+        "name": "Thrissur",
+        "support": [
+          {
+            "id": 8,
+            "name": "Brand4 Service - Thrissur",
+            "phone": "+91 9812310007"
+          }
+        ]
+      },
+      {
+        "name": "Palakkad",
+        "support": [
+          {
+            "id": 9,
+            "name": "Brand4 Service - Palakkad",
+            "phone": "+91 9812310008"
+          }
+        ]
+      },
+      {
+        "name": "Malappuram",
+        "support": [
+          {
+            "id": 10,
+            "name": "Brand4 Service - Malappuram",
+            "phone": "+91 9812310009"
+          }
+        ]
+      },
+      {
+        "name": "Kozhikode",
+        "support": [
+          {
+            "id": 11,
+            "name": "Brand4 Service - Kozhikode",
+            "phone": "+91 9812310010"
+          }
+        ]
+      },
+      {
+        "name": "Wayanad",
+        "support": [
+          {
+            "id": 12,
+            "name": "Brand4 Service - Wayanad",
+            "phone": "+91 9812310011"
+          }
+        ]
+      },
+      {
+        "name": "Kannur",
+        "support": [
+          {
+            "id": 13,
+            "name": "Brand4 Service - Kannur",
+            "phone": "+91 9812310012"
+          }
+        ]
+      },
+      {
+        "name": "Kasaragod",
+        "support": [
+          {
+            "id": 14,
+            "name": "Brand4 Service - Kasaragod",
+            "phone": "+91 9812310013"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "brand": "Brand5",
+    "model": "Model5",
+    "year": 2023,
+    "price": 2500,
+    "image": "https://example.com/car5.jpg",
+    "type": "Sedan",
+    "features": [
+      "Automatic",
+      "Comfort"
+    ],
+    "available": true,
+    "locations": [
+      {
+        "name": "Thiruvananthapuram",
+        "support": [
+          {
+            "id": 1,
+            "name": "Brand5 Service - Thiruvananthapuram",
+            "phone": "+91 9812310000"
+          }
+        ]
+      },
+      {
+        "name": "Kollam",
+        "support": [
+          {
+            "id": 2,
+            "name": "Brand5 Service - Kollam",
+            "phone": "+91 9812310001"
+          }
+        ]
+      },
+      {
+        "name": "Pathanamthitta",
+        "support": [
+          {
+            "id": 3,
+            "name": "Brand5 Service - Pathanamthitta",
+            "phone": "+91 9812310002"
+          }
+        ]
+      },
+      {
+        "name": "Alappuzha",
+        "support": [
+          {
+            "id": 4,
+            "name": "Brand5 Service - Alappuzha",
+            "phone": "+91 9812310003"
+          }
+        ]
+      },
+      {
+        "name": "Kottayam",
+        "support": [
+          {
+            "id": 5,
+            "name": "Brand5 Service - Kottayam",
+            "phone": "+91 9812310004"
+          }
+        ]
+      },
+      {
+        "name": "Idukki",
+        "support": [
+          {
+            "id": 6,
+            "name": "Brand5 Service - Idukki",
+            "phone": "+91 9812310005"
+          }
+        ]
+      },
+      {
+        "name": "Ernakulam",
+        "support": [
+          {
+            "id": 7,
+            "name": "Brand5 Service - Ernakulam",
+            "phone": "+91 9812310006"
+          }
+        ]
+      },
+      {
+        "name": "Thrissur",
+        "support": [
+          {
+            "id": 8,
+            "name": "Brand5 Service - Thrissur",
+            "phone": "+91 9812310007"
+          }
+        ]
+      },
+      {
+        "name": "Palakkad",
+        "support": [
+          {
+            "id": 9,
+            "name": "Brand5 Service - Palakkad",
+            "phone": "+91 9812310008"
+          }
+        ]
+      },
+      {
+        "name": "Malappuram",
+        "support": [
+          {
+            "id": 10,
+            "name": "Brand5 Service - Malappuram",
+            "phone": "+91 9812310009"
+          }
+        ]
+      },
+      {
+        "name": "Kozhikode",
+        "support": [
+          {
+            "id": 11,
+            "name": "Brand5 Service - Kozhikode",
+            "phone": "+91 9812310010"
+          }
+        ]
+      },
+      {
+        "name": "Wayanad",
+        "support": [
+          {
+            "id": 12,
+            "name": "Brand5 Service - Wayanad",
+            "phone": "+91 9812310011"
+          }
+        ]
+      },
+      {
+        "name": "Kannur",
+        "support": [
+          {
+            "id": 13,
+            "name": "Brand5 Service - Kannur",
+            "phone": "+91 9812310012"
+          }
+        ]
+      },
+      {
+        "name": "Kasaragod",
+        "support": [
+          {
+            "id": 14,
+            "name": "Brand5 Service - Kasaragod",
+            "phone": "+91 9812310013"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "brand": "Brand6",
+    "model": "Model6",
+    "year": 2022,
+    "price": 2600,
+    "image": "https://example.com/car6.jpg",
+    "type": "SUV",
+    "features": [
+      "Automatic",
+      "Comfort"
+    ],
+    "available": true,
+    "locations": [
+      {
+        "name": "Thiruvananthapuram",
+        "support": [
+          {
+            "id": 1,
+            "name": "Brand6 Service - Thiruvananthapuram",
+            "phone": "+91 9812310000"
+          }
+        ]
+      },
+      {
+        "name": "Kollam",
+        "support": [
+          {
+            "id": 2,
+            "name": "Brand6 Service - Kollam",
+            "phone": "+91 9812310001"
+          }
+        ]
+      },
+      {
+        "name": "Pathanamthitta",
+        "support": [
+          {
+            "id": 3,
+            "name": "Brand6 Service - Pathanamthitta",
+            "phone": "+91 9812310002"
+          }
+        ]
+      },
+      {
+        "name": "Alappuzha",
+        "support": [
+          {
+            "id": 4,
+            "name": "Brand6 Service - Alappuzha",
+            "phone": "+91 9812310003"
+          }
+        ]
+      },
+      {
+        "name": "Kottayam",
+        "support": [
+          {
+            "id": 5,
+            "name": "Brand6 Service - Kottayam",
+            "phone": "+91 9812310004"
+          }
+        ]
+      },
+      {
+        "name": "Idukki",
+        "support": [
+          {
+            "id": 6,
+            "name": "Brand6 Service - Idukki",
+            "phone": "+91 9812310005"
+          }
+        ]
+      },
+      {
+        "name": "Ernakulam",
+        "support": [
+          {
+            "id": 7,
+            "name": "Brand6 Service - Ernakulam",
+            "phone": "+91 9812310006"
+          }
+        ]
+      },
+      {
+        "name": "Thrissur",
+        "support": [
+          {
+            "id": 8,
+            "name": "Brand6 Service - Thrissur",
+            "phone": "+91 9812310007"
+          }
+        ]
+      },
+      {
+        "name": "Palakkad",
+        "support": [
+          {
+            "id": 9,
+            "name": "Brand6 Service - Palakkad",
+            "phone": "+91 9812310008"
+          }
+        ]
+      },
+      {
+        "name": "Malappuram",
+        "support": [
+          {
+            "id": 10,
+            "name": "Brand6 Service - Malappuram",
+            "phone": "+91 9812310009"
+          }
+        ]
+      },
+      {
+        "name": "Kozhikode",
+        "support": [
+          {
+            "id": 11,
+            "name": "Brand6 Service - Kozhikode",
+            "phone": "+91 9812310010"
+          }
+        ]
+      },
+      {
+        "name": "Wayanad",
+        "support": [
+          {
+            "id": 12,
+            "name": "Brand6 Service - Wayanad",
+            "phone": "+91 9812310011"
+          }
+        ]
+      },
+      {
+        "name": "Kannur",
+        "support": [
+          {
+            "id": 13,
+            "name": "Brand6 Service - Kannur",
+            "phone": "+91 9812310012"
+          }
+        ]
+      },
+      {
+        "name": "Kasaragod",
+        "support": [
+          {
+            "id": 14,
+            "name": "Brand6 Service - Kasaragod",
+            "phone": "+91 9812310013"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "brand": "Brand7",
+    "model": "Model7",
+    "year": 2023,
+    "price": 2700,
+    "image": "https://example.com/car7.jpg",
+    "type": "Sedan",
+    "features": [
+      "Automatic",
+      "Comfort"
+    ],
+    "available": true,
+    "locations": [
+      {
+        "name": "Thiruvananthapuram",
+        "support": [
+          {
+            "id": 1,
+            "name": "Brand7 Service - Thiruvananthapuram",
+            "phone": "+91 9812310000"
+          }
+        ]
+      },
+      {
+        "name": "Kollam",
+        "support": [
+          {
+            "id": 2,
+            "name": "Brand7 Service - Kollam",
+            "phone": "+91 9812310001"
+          }
+        ]
+      },
+      {
+        "name": "Pathanamthitta",
+        "support": [
+          {
+            "id": 3,
+            "name": "Brand7 Service - Pathanamthitta",
+            "phone": "+91 9812310002"
+          }
+        ]
+      },
+      {
+        "name": "Alappuzha",
+        "support": [
+          {
+            "id": 4,
+            "name": "Brand7 Service - Alappuzha",
+            "phone": "+91 9812310003"
+          }
+        ]
+      },
+      {
+        "name": "Kottayam",
+        "support": [
+          {
+            "id": 5,
+            "name": "Brand7 Service - Kottayam",
+            "phone": "+91 9812310004"
+          }
+        ]
+      },
+      {
+        "name": "Idukki",
+        "support": [
+          {
+            "id": 6,
+            "name": "Brand7 Service - Idukki",
+            "phone": "+91 9812310005"
+          }
+        ]
+      },
+      {
+        "name": "Ernakulam",
+        "support": [
+          {
+            "id": 7,
+            "name": "Brand7 Service - Ernakulam",
+            "phone": "+91 9812310006"
+          }
+        ]
+      },
+      {
+        "name": "Thrissur",
+        "support": [
+          {
+            "id": 8,
+            "name": "Brand7 Service - Thrissur",
+            "phone": "+91 9812310007"
+          }
+        ]
+      },
+      {
+        "name": "Palakkad",
+        "support": [
+          {
+            "id": 9,
+            "name": "Brand7 Service - Palakkad",
+            "phone": "+91 9812310008"
+          }
+        ]
+      },
+      {
+        "name": "Malappuram",
+        "support": [
+          {
+            "id": 10,
+            "name": "Brand7 Service - Malappuram",
+            "phone": "+91 9812310009"
+          }
+        ]
+      },
+      {
+        "name": "Kozhikode",
+        "support": [
+          {
+            "id": 11,
+            "name": "Brand7 Service - Kozhikode",
+            "phone": "+91 9812310010"
+          }
+        ]
+      },
+      {
+        "name": "Wayanad",
+        "support": [
+          {
+            "id": 12,
+            "name": "Brand7 Service - Wayanad",
+            "phone": "+91 9812310011"
+          }
+        ]
+      },
+      {
+        "name": "Kannur",
+        "support": [
+          {
+            "id": 13,
+            "name": "Brand7 Service - Kannur",
+            "phone": "+91 9812310012"
+          }
+        ]
+      },
+      {
+        "name": "Kasaragod",
+        "support": [
+          {
+            "id": 14,
+            "name": "Brand7 Service - Kasaragod",
+            "phone": "+91 9812310013"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "brand": "Brand8",
+    "model": "Model8",
+    "year": 2022,
+    "price": 2800,
+    "image": "https://example.com/car8.jpg",
+    "type": "SUV",
+    "features": [
+      "Automatic",
+      "Comfort"
+    ],
+    "available": true,
+    "locations": [
+      {
+        "name": "Thiruvananthapuram",
+        "support": [
+          {
+            "id": 1,
+            "name": "Brand8 Service - Thiruvananthapuram",
+            "phone": "+91 9812310000"
+          }
+        ]
+      },
+      {
+        "name": "Kollam",
+        "support": [
+          {
+            "id": 2,
+            "name": "Brand8 Service - Kollam",
+            "phone": "+91 9812310001"
+          }
+        ]
+      },
+      {
+        "name": "Pathanamthitta",
+        "support": [
+          {
+            "id": 3,
+            "name": "Brand8 Service - Pathanamthitta",
+            "phone": "+91 9812310002"
+          }
+        ]
+      },
+      {
+        "name": "Alappuzha",
+        "support": [
+          {
+            "id": 4,
+            "name": "Brand8 Service - Alappuzha",
+            "phone": "+91 9812310003"
+          }
+        ]
+      },
+      {
+        "name": "Kottayam",
+        "support": [
+          {
+            "id": 5,
+            "name": "Brand8 Service - Kottayam",
+            "phone": "+91 9812310004"
+          }
+        ]
+      },
+      {
+        "name": "Idukki",
+        "support": [
+          {
+            "id": 6,
+            "name": "Brand8 Service - Idukki",
+            "phone": "+91 9812310005"
+          }
+        ]
+      },
+      {
+        "name": "Ernakulam",
+        "support": [
+          {
+            "id": 7,
+            "name": "Brand8 Service - Ernakulam",
+            "phone": "+91 9812310006"
+          }
+        ]
+      },
+      {
+        "name": "Thrissur",
+        "support": [
+          {
+            "id": 8,
+            "name": "Brand8 Service - Thrissur",
+            "phone": "+91 9812310007"
+          }
+        ]
+      },
+      {
+        "name": "Palakkad",
+        "support": [
+          {
+            "id": 9,
+            "name": "Brand8 Service - Palakkad",
+            "phone": "+91 9812310008"
+          }
+        ]
+      },
+      {
+        "name": "Malappuram",
+        "support": [
+          {
+            "id": 10,
+            "name": "Brand8 Service - Malappuram",
+            "phone": "+91 9812310009"
+          }
+        ]
+      },
+      {
+        "name": "Kozhikode",
+        "support": [
+          {
+            "id": 11,
+            "name": "Brand8 Service - Kozhikode",
+            "phone": "+91 9812310010"
+          }
+        ]
+      },
+      {
+        "name": "Wayanad",
+        "support": [
+          {
+            "id": 12,
+            "name": "Brand8 Service - Wayanad",
+            "phone": "+91 9812310011"
+          }
+        ]
+      },
+      {
+        "name": "Kannur",
+        "support": [
+          {
+            "id": 13,
+            "name": "Brand8 Service - Kannur",
+            "phone": "+91 9812310012"
+          }
+        ]
+      },
+      {
+        "name": "Kasaragod",
+        "support": [
+          {
+            "id": 14,
+            "name": "Brand8 Service - Kasaragod",
+            "phone": "+91 9812310013"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "brand": "Brand9",
+    "model": "Model9",
+    "year": 2023,
+    "price": 2900,
+    "image": "https://example.com/car9.jpg",
+    "type": "Sedan",
+    "features": [
+      "Automatic",
+      "Comfort"
+    ],
+    "available": true,
+    "locations": [
+      {
+        "name": "Thiruvananthapuram",
+        "support": [
+          {
+            "id": 1,
+            "name": "Brand9 Service - Thiruvananthapuram",
+            "phone": "+91 9812310000"
+          }
+        ]
+      },
+      {
+        "name": "Kollam",
+        "support": [
+          {
+            "id": 2,
+            "name": "Brand9 Service - Kollam",
+            "phone": "+91 9812310001"
+          }
+        ]
+      },
+      {
+        "name": "Pathanamthitta",
+        "support": [
+          {
+            "id": 3,
+            "name": "Brand9 Service - Pathanamthitta",
+            "phone": "+91 9812310002"
+          }
+        ]
+      },
+      {
+        "name": "Alappuzha",
+        "support": [
+          {
+            "id": 4,
+            "name": "Brand9 Service - Alappuzha",
+            "phone": "+91 9812310003"
+          }
+        ]
+      },
+      {
+        "name": "Kottayam",
+        "support": [
+          {
+            "id": 5,
+            "name": "Brand9 Service - Kottayam",
+            "phone": "+91 9812310004"
+          }
+        ]
+      },
+      {
+        "name": "Idukki",
+        "support": [
+          {
+            "id": 6,
+            "name": "Brand9 Service - Idukki",
+            "phone": "+91 9812310005"
+          }
+        ]
+      },
+      {
+        "name": "Ernakulam",
+        "support": [
+          {
+            "id": 7,
+            "name": "Brand9 Service - Ernakulam",
+            "phone": "+91 9812310006"
+          }
+        ]
+      },
+      {
+        "name": "Thrissur",
+        "support": [
+          {
+            "id": 8,
+            "name": "Brand9 Service - Thrissur",
+            "phone": "+91 9812310007"
+          }
+        ]
+      },
+      {
+        "name": "Palakkad",
+        "support": [
+          {
+            "id": 9,
+            "name": "Brand9 Service - Palakkad",
+            "phone": "+91 9812310008"
+          }
+        ]
+      },
+      {
+        "name": "Malappuram",
+        "support": [
+          {
+            "id": 10,
+            "name": "Brand9 Service - Malappuram",
+            "phone": "+91 9812310009"
+          }
+        ]
+      },
+      {
+        "name": "Kozhikode",
+        "support": [
+          {
+            "id": 11,
+            "name": "Brand9 Service - Kozhikode",
+            "phone": "+91 9812310010"
+          }
+        ]
+      },
+      {
+        "name": "Wayanad",
+        "support": [
+          {
+            "id": 12,
+            "name": "Brand9 Service - Wayanad",
+            "phone": "+91 9812310011"
+          }
+        ]
+      },
+      {
+        "name": "Kannur",
+        "support": [
+          {
+            "id": 13,
+            "name": "Brand9 Service - Kannur",
+            "phone": "+91 9812310012"
+          }
+        ]
+      },
+      {
+        "name": "Kasaragod",
+        "support": [
+          {
+            "id": 14,
+            "name": "Brand9 Service - Kasaragod",
+            "phone": "+91 9812310013"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "brand": "Brand10",
+    "model": "Model10",
+    "year": 2022,
+    "price": 3000,
+    "image": "https://example.com/car10.jpg",
+    "type": "SUV",
+    "features": [
+      "Automatic",
+      "Comfort"
+    ],
+    "available": true,
+    "locations": [
+      {
+        "name": "Thiruvananthapuram",
+        "support": [
+          {
+            "id": 1,
+            "name": "Brand10 Service - Thiruvananthapuram",
+            "phone": "+91 9812310000"
+          }
+        ]
+      },
+      {
+        "name": "Kollam",
+        "support": [
+          {
+            "id": 2,
+            "name": "Brand10 Service - Kollam",
+            "phone": "+91 9812310001"
+          }
+        ]
+      },
+      {
+        "name": "Pathanamthitta",
+        "support": [
+          {
+            "id": 3,
+            "name": "Brand10 Service - Pathanamthitta",
+            "phone": "+91 9812310002"
+          }
+        ]
+      },
+      {
+        "name": "Alappuzha",
+        "support": [
+          {
+            "id": 4,
+            "name": "Brand10 Service - Alappuzha",
+            "phone": "+91 9812310003"
+          }
+        ]
+      },
+      {
+        "name": "Kottayam",
+        "support": [
+          {
+            "id": 5,
+            "name": "Brand10 Service - Kottayam",
+            "phone": "+91 9812310004"
+          }
+        ]
+      },
+      {
+        "name": "Idukki",
+        "support": [
+          {
+            "id": 6,
+            "name": "Brand10 Service - Idukki",
+            "phone": "+91 9812310005"
+          }
+        ]
+      },
+      {
+        "name": "Ernakulam",
+        "support": [
+          {
+            "id": 7,
+            "name": "Brand10 Service - Ernakulam",
+            "phone": "+91 9812310006"
+          }
+        ]
+      },
+      {
+        "name": "Thrissur",
+        "support": [
+          {
+            "id": 8,
+            "name": "Brand10 Service - Thrissur",
+            "phone": "+91 9812310007"
+          }
+        ]
+      },
+      {
+        "name": "Palakkad",
+        "support": [
+          {
+            "id": 9,
+            "name": "Brand10 Service - Palakkad",
+            "phone": "+91 9812310008"
+          }
+        ]
+      },
+      {
+        "name": "Malappuram",
+        "support": [
+          {
+            "id": 10,
+            "name": "Brand10 Service - Malappuram",
+            "phone": "+91 9812310009"
+          }
+        ]
+      },
+      {
+        "name": "Kozhikode",
+        "support": [
+          {
+            "id": 11,
+            "name": "Brand10 Service - Kozhikode",
+            "phone": "+91 9812310010"
+          }
+        ]
+      },
+      {
+        "name": "Wayanad",
+        "support": [
+          {
+            "id": 12,
+            "name": "Brand10 Service - Wayanad",
+            "phone": "+91 9812310011"
+          }
+        ]
+      },
+      {
+        "name": "Kannur",
+        "support": [
+          {
+            "id": 13,
+            "name": "Brand10 Service - Kannur",
+            "phone": "+91 9812310012"
+          }
+        ]
+      },
+      {
+        "name": "Kasaragod",
+        "support": [
+          {
+            "id": 14,
+            "name": "Brand10 Service - Kasaragod",
+            "phone": "+91 9812310013"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "brand": "Brand11",
+    "model": "Model11",
+    "year": 2023,
+    "price": 3100,
+    "image": "https://example.com/car11.jpg",
+    "type": "Sedan",
+    "features": [
+      "Automatic",
+      "Comfort"
+    ],
+    "available": true,
+    "locations": [
+      {
+        "name": "Thiruvananthapuram",
+        "support": [
+          {
+            "id": 1,
+            "name": "Brand11 Service - Thiruvananthapuram",
+            "phone": "+91 9812310000"
+          }
+        ]
+      },
+      {
+        "name": "Kollam",
+        "support": [
+          {
+            "id": 2,
+            "name": "Brand11 Service - Kollam",
+            "phone": "+91 9812310001"
+          }
+        ]
+      },
+      {
+        "name": "Pathanamthitta",
+        "support": [
+          {
+            "id": 3,
+            "name": "Brand11 Service - Pathanamthitta",
+            "phone": "+91 9812310002"
+          }
+        ]
+      },
+      {
+        "name": "Alappuzha",
+        "support": [
+          {
+            "id": 4,
+            "name": "Brand11 Service - Alappuzha",
+            "phone": "+91 9812310003"
+          }
+        ]
+      },
+      {
+        "name": "Kottayam",
+        "support": [
+          {
+            "id": 5,
+            "name": "Brand11 Service - Kottayam",
+            "phone": "+91 9812310004"
+          }
+        ]
+      },
+      {
+        "name": "Idukki",
+        "support": [
+          {
+            "id": 6,
+            "name": "Brand11 Service - Idukki",
+            "phone": "+91 9812310005"
+          }
+        ]
+      },
+      {
+        "name": "Ernakulam",
+        "support": [
+          {
+            "id": 7,
+            "name": "Brand11 Service - Ernakulam",
+            "phone": "+91 9812310006"
+          }
+        ]
+      },
+      {
+        "name": "Thrissur",
+        "support": [
+          {
+            "id": 8,
+            "name": "Brand11 Service - Thrissur",
+            "phone": "+91 9812310007"
+          }
+        ]
+      },
+      {
+        "name": "Palakkad",
+        "support": [
+          {
+            "id": 9,
+            "name": "Brand11 Service - Palakkad",
+            "phone": "+91 9812310008"
+          }
+        ]
+      },
+      {
+        "name": "Malappuram",
+        "support": [
+          {
+            "id": 10,
+            "name": "Brand11 Service - Malappuram",
+            "phone": "+91 9812310009"
+          }
+        ]
+      },
+      {
+        "name": "Kozhikode",
+        "support": [
+          {
+            "id": 11,
+            "name": "Brand11 Service - Kozhikode",
+            "phone": "+91 9812310010"
+          }
+        ]
+      },
+      {
+        "name": "Wayanad",
+        "support": [
+          {
+            "id": 12,
+            "name": "Brand11 Service - Wayanad",
+            "phone": "+91 9812310011"
+          }
+        ]
+      },
+      {
+        "name": "Kannur",
+        "support": [
+          {
+            "id": 13,
+            "name": "Brand11 Service - Kannur",
+            "phone": "+91 9812310012"
+          }
+        ]
+      },
+      {
+        "name": "Kasaragod",
+        "support": [
+          {
+            "id": 14,
+            "name": "Brand11 Service - Kasaragod",
+            "phone": "+91 9812310013"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "brand": "Brand12",
+    "model": "Model12",
+    "year": 2022,
+    "price": 3200,
+    "image": "https://example.com/car12.jpg",
+    "type": "SUV",
+    "features": [
+      "Automatic",
+      "Comfort"
+    ],
+    "available": true,
+    "locations": [
+      {
+        "name": "Thiruvananthapuram",
+        "support": [
+          {
+            "id": 1,
+            "name": "Brand12 Service - Thiruvananthapuram",
+            "phone": "+91 9812310000"
+          }
+        ]
+      },
+      {
+        "name": "Kollam",
+        "support": [
+          {
+            "id": 2,
+            "name": "Brand12 Service - Kollam",
+            "phone": "+91 9812310001"
+          }
+        ]
+      },
+      {
+        "name": "Pathanamthitta",
+        "support": [
+          {
+            "id": 3,
+            "name": "Brand12 Service - Pathanamthitta",
+            "phone": "+91 9812310002"
+          }
+        ]
+      },
+      {
+        "name": "Alappuzha",
+        "support": [
+          {
+            "id": 4,
+            "name": "Brand12 Service - Alappuzha",
+            "phone": "+91 9812310003"
+          }
+        ]
+      },
+      {
+        "name": "Kottayam",
+        "support": [
+          {
+            "id": 5,
+            "name": "Brand12 Service - Kottayam",
+            "phone": "+91 9812310004"
+          }
+        ]
+      },
+      {
+        "name": "Idukki",
+        "support": [
+          {
+            "id": 6,
+            "name": "Brand12 Service - Idukki",
+            "phone": "+91 9812310005"
+          }
+        ]
+      },
+      {
+        "name": "Ernakulam",
+        "support": [
+          {
+            "id": 7,
+            "name": "Brand12 Service - Ernakulam",
+            "phone": "+91 9812310006"
+          }
+        ]
+      },
+      {
+        "name": "Thrissur",
+        "support": [
+          {
+            "id": 8,
+            "name": "Brand12 Service - Thrissur",
+            "phone": "+91 9812310007"
+          }
+        ]
+      },
+      {
+        "name": "Palakkad",
+        "support": [
+          {
+            "id": 9,
+            "name": "Brand12 Service - Palakkad",
+            "phone": "+91 9812310008"
+          }
+        ]
+      },
+      {
+        "name": "Malappuram",
+        "support": [
+          {
+            "id": 10,
+            "name": "Brand12 Service - Malappuram",
+            "phone": "+91 9812310009"
+          }
+        ]
+      },
+      {
+        "name": "Kozhikode",
+        "support": [
+          {
+            "id": 11,
+            "name": "Brand12 Service - Kozhikode",
+            "phone": "+91 9812310010"
+          }
+        ]
+      },
+      {
+        "name": "Wayanad",
+        "support": [
+          {
+            "id": 12,
+            "name": "Brand12 Service - Wayanad",
+            "phone": "+91 9812310011"
+          }
+        ]
+      },
+      {
+        "name": "Kannur",
+        "support": [
+          {
+            "id": 13,
+            "name": "Brand12 Service - Kannur",
+            "phone": "+91 9812310012"
+          }
+        ]
+      },
+      {
+        "name": "Kasaragod",
+        "support": [
+          {
+            "id": 14,
+            "name": "Brand12 Service - Kasaragod",
+            "phone": "+91 9812310013"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "brand": "Brand13",
+    "model": "Model13",
+    "year": 2023,
+    "price": 3300,
+    "image": "https://example.com/car13.jpg",
+    "type": "Sedan",
+    "features": [
+      "Automatic",
+      "Comfort"
+    ],
+    "available": true,
+    "locations": [
+      {
+        "name": "Thiruvananthapuram",
+        "support": [
+          {
+            "id": 1,
+            "name": "Brand13 Service - Thiruvananthapuram",
+            "phone": "+91 9812310000"
+          }
+        ]
+      },
+      {
+        "name": "Kollam",
+        "support": [
+          {
+            "id": 2,
+            "name": "Brand13 Service - Kollam",
+            "phone": "+91 9812310001"
+          }
+        ]
+      },
+      {
+        "name": "Pathanamthitta",
+        "support": [
+          {
+            "id": 3,
+            "name": "Brand13 Service - Pathanamthitta",
+            "phone": "+91 9812310002"
+          }
+        ]
+      },
+      {
+        "name": "Alappuzha",
+        "support": [
+          {
+            "id": 4,
+            "name": "Brand13 Service - Alappuzha",
+            "phone": "+91 9812310003"
+          }
+        ]
+      },
+      {
+        "name": "Kottayam",
+        "support": [
+          {
+            "id": 5,
+            "name": "Brand13 Service - Kottayam",
+            "phone": "+91 9812310004"
+          }
+        ]
+      },
+      {
+        "name": "Idukki",
+        "support": [
+          {
+            "id": 6,
+            "name": "Brand13 Service - Idukki",
+            "phone": "+91 9812310005"
+          }
+        ]
+      },
+      {
+        "name": "Ernakulam",
+        "support": [
+          {
+            "id": 7,
+            "name": "Brand13 Service - Ernakulam",
+            "phone": "+91 9812310006"
+          }
+        ]
+      },
+      {
+        "name": "Thrissur",
+        "support": [
+          {
+            "id": 8,
+            "name": "Brand13 Service - Thrissur",
+            "phone": "+91 9812310007"
+          }
+        ]
+      },
+      {
+        "name": "Palakkad",
+        "support": [
+          {
+            "id": 9,
+            "name": "Brand13 Service - Palakkad",
+            "phone": "+91 9812310008"
+          }
+        ]
+      },
+      {
+        "name": "Malappuram",
+        "support": [
+          {
+            "id": 10,
+            "name": "Brand13 Service - Malappuram",
+            "phone": "+91 9812310009"
+          }
+        ]
+      },
+      {
+        "name": "Kozhikode",
+        "support": [
+          {
+            "id": 11,
+            "name": "Brand13 Service - Kozhikode",
+            "phone": "+91 9812310010"
+          }
+        ]
+      },
+      {
+        "name": "Wayanad",
+        "support": [
+          {
+            "id": 12,
+            "name": "Brand13 Service - Wayanad",
+            "phone": "+91 9812310011"
+          }
+        ]
+      },
+      {
+        "name": "Kannur",
+        "support": [
+          {
+            "id": 13,
+            "name": "Brand13 Service - Kannur",
+            "phone": "+91 9812310012"
+          }
+        ]
+      },
+      {
+        "name": "Kasaragod",
+        "support": [
+          {
+            "id": 14,
+            "name": "Brand13 Service - Kasaragod",
+            "phone": "+91 9812310013"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "brand": "Brand14",
+    "model": "Model14",
+    "year": 2022,
+    "price": 3400,
+    "image": "https://example.com/car14.jpg",
+    "type": "SUV",
+    "features": [
+      "Automatic",
+      "Comfort"
+    ],
+    "available": true,
+    "locations": [
+      {
+        "name": "Thiruvananthapuram",
+        "support": [
+          {
+            "id": 1,
+            "name": "Brand14 Service - Thiruvananthapuram",
+            "phone": "+91 9812310000"
+          }
+        ]
+      },
+      {
+        "name": "Kollam",
+        "support": [
+          {
+            "id": 2,
+            "name": "Brand14 Service - Kollam",
+            "phone": "+91 9812310001"
+          }
+        ]
+      },
+      {
+        "name": "Pathanamthitta",
+        "support": [
+          {
+            "id": 3,
+            "name": "Brand14 Service - Pathanamthitta",
+            "phone": "+91 9812310002"
+          }
+        ]
+      },
+      {
+        "name": "Alappuzha",
+        "support": [
+          {
+            "id": 4,
+            "name": "Brand14 Service - Alappuzha",
+            "phone": "+91 9812310003"
+          }
+        ]
+      },
+      {
+        "name": "Kottayam",
+        "support": [
+          {
+            "id": 5,
+            "name": "Brand14 Service - Kottayam",
+            "phone": "+91 9812310004"
+          }
+        ]
+      },
+      {
+        "name": "Idukki",
+        "support": [
+          {
+            "id": 6,
+            "name": "Brand14 Service - Idukki",
+            "phone": "+91 9812310005"
+          }
+        ]
+      },
+      {
+        "name": "Ernakulam",
+        "support": [
+          {
+            "id": 7,
+            "name": "Brand14 Service - Ernakulam",
+            "phone": "+91 9812310006"
+          }
+        ]
+      },
+      {
+        "name": "Thrissur",
+        "support": [
+          {
+            "id": 8,
+            "name": "Brand14 Service - Thrissur",
+            "phone": "+91 9812310007"
+          }
+        ]
+      },
+      {
+        "name": "Palakkad",
+        "support": [
+          {
+            "id": 9,
+            "name": "Brand14 Service - Palakkad",
+            "phone": "+91 9812310008"
+          }
+        ]
+      },
+      {
+        "name": "Malappuram",
+        "support": [
+          {
+            "id": 10,
+            "name": "Brand14 Service - Malappuram",
+            "phone": "+91 9812310009"
+          }
+        ]
+      },
+      {
+        "name": "Kozhikode",
+        "support": [
+          {
+            "id": 11,
+            "name": "Brand14 Service - Kozhikode",
+            "phone": "+91 9812310010"
+          }
+        ]
+      },
+      {
+        "name": "Wayanad",
+        "support": [
+          {
+            "id": 12,
+            "name": "Brand14 Service - Wayanad",
+            "phone": "+91 9812310011"
+          }
+        ]
+      },
+      {
+        "name": "Kannur",
+        "support": [
+          {
+            "id": 13,
+            "name": "Brand14 Service - Kannur",
+            "phone": "+91 9812310012"
+          }
+        ]
+      },
+      {
+        "name": "Kasaragod",
+        "support": [
+          {
+            "id": 14,
+            "name": "Brand14 Service - Kasaragod",
+            "phone": "+91 9812310013"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "brand": "Brand15",
+    "model": "Model15",
+    "year": 2023,
+    "price": 3500,
+    "image": "https://example.com/car15.jpg",
+    "type": "Sedan",
+    "features": [
+      "Automatic",
+      "Comfort"
+    ],
+    "available": true,
+    "locations": [
+      {
+        "name": "Thiruvananthapuram",
+        "support": [
+          {
+            "id": 1,
+            "name": "Brand15 Service - Thiruvananthapuram",
+            "phone": "+91 9812310000"
+          }
+        ]
+      },
+      {
+        "name": "Kollam",
+        "support": [
+          {
+            "id": 2,
+            "name": "Brand15 Service - Kollam",
+            "phone": "+91 9812310001"
+          }
+        ]
+      },
+      {
+        "name": "Pathanamthitta",
+        "support": [
+          {
+            "id": 3,
+            "name": "Brand15 Service - Pathanamthitta",
+            "phone": "+91 9812310002"
+          }
+        ]
+      },
+      {
+        "name": "Alappuzha",
+        "support": [
+          {
+            "id": 4,
+            "name": "Brand15 Service - Alappuzha",
+            "phone": "+91 9812310003"
+          }
+        ]
+      },
+      {
+        "name": "Kottayam",
+        "support": [
+          {
+            "id": 5,
+            "name": "Brand15 Service - Kottayam",
+            "phone": "+91 9812310004"
+          }
+        ]
+      },
+      {
+        "name": "Idukki",
+        "support": [
+          {
+            "id": 6,
+            "name": "Brand15 Service - Idukki",
+            "phone": "+91 9812310005"
+          }
+        ]
+      },
+      {
+        "name": "Ernakulam",
+        "support": [
+          {
+            "id": 7,
+            "name": "Brand15 Service - Ernakulam",
+            "phone": "+91 9812310006"
+          }
+        ]
+      },
+      {
+        "name": "Thrissur",
+        "support": [
+          {
+            "id": 8,
+            "name": "Brand15 Service - Thrissur",
+            "phone": "+91 9812310007"
+          }
+        ]
+      },
+      {
+        "name": "Palakkad",
+        "support": [
+          {
+            "id": 9,
+            "name": "Brand15 Service - Palakkad",
+            "phone": "+91 9812310008"
+          }
+        ]
+      },
+      {
+        "name": "Malappuram",
+        "support": [
+          {
+            "id": 10,
+            "name": "Brand15 Service - Malappuram",
+            "phone": "+91 9812310009"
+          }
+        ]
+      },
+      {
+        "name": "Kozhikode",
+        "support": [
+          {
+            "id": 11,
+            "name": "Brand15 Service - Kozhikode",
+            "phone": "+91 9812310010"
+          }
+        ]
+      },
+      {
+        "name": "Wayanad",
+        "support": [
+          {
+            "id": 12,
+            "name": "Brand15 Service - Wayanad",
+            "phone": "+91 9812310011"
+          }
+        ]
+      },
+      {
+        "name": "Kannur",
+        "support": [
+          {
+            "id": 13,
+            "name": "Brand15 Service - Kannur",
+            "phone": "+91 9812310012"
+          }
+        ]
+      },
+      {
+        "name": "Kasaragod",
+        "support": [
+          {
+            "id": 14,
+            "name": "Brand15 Service - Kasaragod",
+            "phone": "+91 9812310013"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "brand": "Brand16",
+    "model": "Model16",
+    "year": 2022,
+    "price": 3600,
+    "image": "https://example.com/car16.jpg",
+    "type": "SUV",
+    "features": [
+      "Automatic",
+      "Comfort"
+    ],
+    "available": true,
+    "locations": [
+      {
+        "name": "Thiruvananthapuram",
+        "support": [
+          {
+            "id": 1,
+            "name": "Brand16 Service - Thiruvananthapuram",
+            "phone": "+91 9812310000"
+          }
+        ]
+      },
+      {
+        "name": "Kollam",
+        "support": [
+          {
+            "id": 2,
+            "name": "Brand16 Service - Kollam",
+            "phone": "+91 9812310001"
+          }
+        ]
+      },
+      {
+        "name": "Pathanamthitta",
+        "support": [
+          {
+            "id": 3,
+            "name": "Brand16 Service - Pathanamthitta",
+            "phone": "+91 9812310002"
+          }
+        ]
+      },
+      {
+        "name": "Alappuzha",
+        "support": [
+          {
+            "id": 4,
+            "name": "Brand16 Service - Alappuzha",
+            "phone": "+91 9812310003"
+          }
+        ]
+      },
+      {
+        "name": "Kottayam",
+        "support": [
+          {
+            "id": 5,
+            "name": "Brand16 Service - Kottayam",
+            "phone": "+91 9812310004"
+          }
+        ]
+      },
+      {
+        "name": "Idukki",
+        "support": [
+          {
+            "id": 6,
+            "name": "Brand16 Service - Idukki",
+            "phone": "+91 9812310005"
+          }
+        ]
+      },
+      {
+        "name": "Ernakulam",
+        "support": [
+          {
+            "id": 7,
+            "name": "Brand16 Service - Ernakulam",
+            "phone": "+91 9812310006"
+          }
+        ]
+      },
+      {
+        "name": "Thrissur",
+        "support": [
+          {
+            "id": 8,
+            "name": "Brand16 Service - Thrissur",
+            "phone": "+91 9812310007"
+          }
+        ]
+      },
+      {
+        "name": "Palakkad",
+        "support": [
+          {
+            "id": 9,
+            "name": "Brand16 Service - Palakkad",
+            "phone": "+91 9812310008"
+          }
+        ]
+      },
+      {
+        "name": "Malappuram",
+        "support": [
+          {
+            "id": 10,
+            "name": "Brand16 Service - Malappuram",
+            "phone": "+91 9812310009"
+          }
+        ]
+      },
+      {
+        "name": "Kozhikode",
+        "support": [
+          {
+            "id": 11,
+            "name": "Brand16 Service - Kozhikode",
+            "phone": "+91 9812310010"
+          }
+        ]
+      },
+      {
+        "name": "Wayanad",
+        "support": [
+          {
+            "id": 12,
+            "name": "Brand16 Service - Wayanad",
+            "phone": "+91 9812310011"
+          }
+        ]
+      },
+      {
+        "name": "Kannur",
+        "support": [
+          {
+            "id": 13,
+            "name": "Brand16 Service - Kannur",
+            "phone": "+91 9812310012"
+          }
+        ]
+      },
+      {
+        "name": "Kasaragod",
+        "support": [
+          {
+            "id": 14,
+            "name": "Brand16 Service - Kasaragod",
+            "phone": "+91 9812310013"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "brand": "Brand17",
+    "model": "Model17",
+    "year": 2023,
+    "price": 3700,
+    "image": "https://example.com/car17.jpg",
+    "type": "Sedan",
+    "features": [
+      "Automatic",
+      "Comfort"
+    ],
+    "available": true,
+    "locations": [
+      {
+        "name": "Thiruvananthapuram",
+        "support": [
+          {
+            "id": 1,
+            "name": "Brand17 Service - Thiruvananthapuram",
+            "phone": "+91 9812310000"
+          }
+        ]
+      },
+      {
+        "name": "Kollam",
+        "support": [
+          {
+            "id": 2,
+            "name": "Brand17 Service - Kollam",
+            "phone": "+91 9812310001"
+          }
+        ]
+      },
+      {
+        "name": "Pathanamthitta",
+        "support": [
+          {
+            "id": 3,
+            "name": "Brand17 Service - Pathanamthitta",
+            "phone": "+91 9812310002"
+          }
+        ]
+      },
+      {
+        "name": "Alappuzha",
+        "support": [
+          {
+            "id": 4,
+            "name": "Brand17 Service - Alappuzha",
+            "phone": "+91 9812310003"
+          }
+        ]
+      },
+      {
+        "name": "Kottayam",
+        "support": [
+          {
+            "id": 5,
+            "name": "Brand17 Service - Kottayam",
+            "phone": "+91 9812310004"
+          }
+        ]
+      },
+      {
+        "name": "Idukki",
+        "support": [
+          {
+            "id": 6,
+            "name": "Brand17 Service - Idukki",
+            "phone": "+91 9812310005"
+          }
+        ]
+      },
+      {
+        "name": "Ernakulam",
+        "support": [
+          {
+            "id": 7,
+            "name": "Brand17 Service - Ernakulam",
+            "phone": "+91 9812310006"
+          }
+        ]
+      },
+      {
+        "name": "Thrissur",
+        "support": [
+          {
+            "id": 8,
+            "name": "Brand17 Service - Thrissur",
+            "phone": "+91 9812310007"
+          }
+        ]
+      },
+      {
+        "name": "Palakkad",
+        "support": [
+          {
+            "id": 9,
+            "name": "Brand17 Service - Palakkad",
+            "phone": "+91 9812310008"
+          }
+        ]
+      },
+      {
+        "name": "Malappuram",
+        "support": [
+          {
+            "id": 10,
+            "name": "Brand17 Service - Malappuram",
+            "phone": "+91 9812310009"
+          }
+        ]
+      },
+      {
+        "name": "Kozhikode",
+        "support": [
+          {
+            "id": 11,
+            "name": "Brand17 Service - Kozhikode",
+            "phone": "+91 9812310010"
+          }
+        ]
+      },
+      {
+        "name": "Wayanad",
+        "support": [
+          {
+            "id": 12,
+            "name": "Brand17 Service - Wayanad",
+            "phone": "+91 9812310011"
+          }
+        ]
+      },
+      {
+        "name": "Kannur",
+        "support": [
+          {
+            "id": 13,
+            "name": "Brand17 Service - Kannur",
+            "phone": "+91 9812310012"
+          }
+        ]
+      },
+      {
+        "name": "Kasaragod",
+        "support": [
+          {
+            "id": 14,
+            "name": "Brand17 Service - Kasaragod",
+            "phone": "+91 9812310013"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "brand": "Brand18",
+    "model": "Model18",
+    "year": 2022,
+    "price": 3800,
+    "image": "https://example.com/car18.jpg",
+    "type": "SUV",
+    "features": [
+      "Automatic",
+      "Comfort"
+    ],
+    "available": true,
+    "locations": [
+      {
+        "name": "Thiruvananthapuram",
+        "support": [
+          {
+            "id": 1,
+            "name": "Brand18 Service - Thiruvananthapuram",
+            "phone": "+91 9812310000"
+          }
+        ]
+      },
+      {
+        "name": "Kollam",
+        "support": [
+          {
+            "id": 2,
+            "name": "Brand18 Service - Kollam",
+            "phone": "+91 9812310001"
+          }
+        ]
+      },
+      {
+        "name": "Pathanamthitta",
+        "support": [
+          {
+            "id": 3,
+            "name": "Brand18 Service - Pathanamthitta",
+            "phone": "+91 9812310002"
+          }
+        ]
+      },
+      {
+        "name": "Alappuzha",
+        "support": [
+          {
+            "id": 4,
+            "name": "Brand18 Service - Alappuzha",
+            "phone": "+91 9812310003"
+          }
+        ]
+      },
+      {
+        "name": "Kottayam",
+        "support": [
+          {
+            "id": 5,
+            "name": "Brand18 Service - Kottayam",
+            "phone": "+91 9812310004"
+          }
+        ]
+      },
+      {
+        "name": "Idukki",
+        "support": [
+          {
+            "id": 6,
+            "name": "Brand18 Service - Idukki",
+            "phone": "+91 9812310005"
+          }
+        ]
+      },
+      {
+        "name": "Ernakulam",
+        "support": [
+          {
+            "id": 7,
+            "name": "Brand18 Service - Ernakulam",
+            "phone": "+91 9812310006"
+          }
+        ]
+      },
+      {
+        "name": "Thrissur",
+        "support": [
+          {
+            "id": 8,
+            "name": "Brand18 Service - Thrissur",
+            "phone": "+91 9812310007"
+          }
+        ]
+      },
+      {
+        "name": "Palakkad",
+        "support": [
+          {
+            "id": 9,
+            "name": "Brand18 Service - Palakkad",
+            "phone": "+91 9812310008"
+          }
+        ]
+      },
+      {
+        "name": "Malappuram",
+        "support": [
+          {
+            "id": 10,
+            "name": "Brand18 Service - Malappuram",
+            "phone": "+91 9812310009"
+          }
+        ]
+      },
+      {
+        "name": "Kozhikode",
+        "support": [
+          {
+            "id": 11,
+            "name": "Brand18 Service - Kozhikode",
+            "phone": "+91 9812310010"
+          }
+        ]
+      },
+      {
+        "name": "Wayanad",
+        "support": [
+          {
+            "id": 12,
+            "name": "Brand18 Service - Wayanad",
+            "phone": "+91 9812310011"
+          }
+        ]
+      },
+      {
+        "name": "Kannur",
+        "support": [
+          {
+            "id": 13,
+            "name": "Brand18 Service - Kannur",
+            "phone": "+91 9812310012"
+          }
+        ]
+      },
+      {
+        "name": "Kasaragod",
+        "support": [
+          {
+            "id": 14,
+            "name": "Brand18 Service - Kasaragod",
+            "phone": "+91 9812310013"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "brand": "Brand19",
+    "model": "Model19",
+    "year": 2023,
+    "price": 3900,
+    "image": "https://example.com/car19.jpg",
+    "type": "Sedan",
+    "features": [
+      "Automatic",
+      "Comfort"
+    ],
+    "available": true,
+    "locations": [
+      {
+        "name": "Thiruvananthapuram",
+        "support": [
+          {
+            "id": 1,
+            "name": "Brand19 Service - Thiruvananthapuram",
+            "phone": "+91 9812310000"
+          }
+        ]
+      },
+      {
+        "name": "Kollam",
+        "support": [
+          {
+            "id": 2,
+            "name": "Brand19 Service - Kollam",
+            "phone": "+91 9812310001"
+          }
+        ]
+      },
+      {
+        "name": "Pathanamthitta",
+        "support": [
+          {
+            "id": 3,
+            "name": "Brand19 Service - Pathanamthitta",
+            "phone": "+91 9812310002"
+          }
+        ]
+      },
+      {
+        "name": "Alappuzha",
+        "support": [
+          {
+            "id": 4,
+            "name": "Brand19 Service - Alappuzha",
+            "phone": "+91 9812310003"
+          }
+        ]
+      },
+      {
+        "name": "Kottayam",
+        "support": [
+          {
+            "id": 5,
+            "name": "Brand19 Service - Kottayam",
+            "phone": "+91 9812310004"
+          }
+        ]
+      },
+      {
+        "name": "Idukki",
+        "support": [
+          {
+            "id": 6,
+            "name": "Brand19 Service - Idukki",
+            "phone": "+91 9812310005"
+          }
+        ]
+      },
+      {
+        "name": "Ernakulam",
+        "support": [
+          {
+            "id": 7,
+            "name": "Brand19 Service - Ernakulam",
+            "phone": "+91 9812310006"
+          }
+        ]
+      },
+      {
+        "name": "Thrissur",
+        "support": [
+          {
+            "id": 8,
+            "name": "Brand19 Service - Thrissur",
+            "phone": "+91 9812310007"
+          }
+        ]
+      },
+      {
+        "name": "Palakkad",
+        "support": [
+          {
+            "id": 9,
+            "name": "Brand19 Service - Palakkad",
+            "phone": "+91 9812310008"
+          }
+        ]
+      },
+      {
+        "name": "Malappuram",
+        "support": [
+          {
+            "id": 10,
+            "name": "Brand19 Service - Malappuram",
+            "phone": "+91 9812310009"
+          }
+        ]
+      },
+      {
+        "name": "Kozhikode",
+        "support": [
+          {
+            "id": 11,
+            "name": "Brand19 Service - Kozhikode",
+            "phone": "+91 9812310010"
+          }
+        ]
+      },
+      {
+        "name": "Wayanad",
+        "support": [
+          {
+            "id": 12,
+            "name": "Brand19 Service - Wayanad",
+            "phone": "+91 9812310011"
+          }
+        ]
+      },
+      {
+        "name": "Kannur",
+        "support": [
+          {
+            "id": 13,
+            "name": "Brand19 Service - Kannur",
+            "phone": "+91 9812310012"
+          }
+        ]
+      },
+      {
+        "name": "Kasaragod",
+        "support": [
+          {
+            "id": 14,
+            "name": "Brand19 Service - Kasaragod",
+            "phone": "+91 9812310013"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "brand": "Brand20",
+    "model": "Model20",
+    "year": 2022,
+    "price": 4000,
+    "image": "https://example.com/car20.jpg",
+    "type": "SUV",
+    "features": [
+      "Automatic",
+      "Comfort"
+    ],
+    "available": true,
+    "locations": [
+      {
+        "name": "Thiruvananthapuram",
+        "support": [
+          {
+            "id": 1,
+            "name": "Brand20 Service - Thiruvananthapuram",
+            "phone": "+91 9812310000"
+          }
+        ]
+      },
+      {
+        "name": "Kollam",
+        "support": [
+          {
+            "id": 2,
+            "name": "Brand20 Service - Kollam",
+            "phone": "+91 9812310001"
+          }
+        ]
+      },
+      {
+        "name": "Pathanamthitta",
+        "support": [
+          {
+            "id": 3,
+            "name": "Brand20 Service - Pathanamthitta",
+            "phone": "+91 9812310002"
+          }
+        ]
+      },
+      {
+        "name": "Alappuzha",
+        "support": [
+          {
+            "id": 4,
+            "name": "Brand20 Service - Alappuzha",
+            "phone": "+91 9812310003"
+          }
+        ]
+      },
+      {
+        "name": "Kottayam",
+        "support": [
+          {
+            "id": 5,
+            "name": "Brand20 Service - Kottayam",
+            "phone": "+91 9812310004"
+          }
+        ]
+      },
+      {
+        "name": "Idukki",
+        "support": [
+          {
+            "id": 6,
+            "name": "Brand20 Service - Idukki",
+            "phone": "+91 9812310005"
+          }
+        ]
+      },
+      {
+        "name": "Ernakulam",
+        "support": [
+          {
+            "id": 7,
+            "name": "Brand20 Service - Ernakulam",
+            "phone": "+91 9812310006"
+          }
+        ]
+      },
+      {
+        "name": "Thrissur",
+        "support": [
+          {
+            "id": 8,
+            "name": "Brand20 Service - Thrissur",
+            "phone": "+91 9812310007"
+          }
+        ]
+      },
+      {
+        "name": "Palakkad",
+        "support": [
+          {
+            "id": 9,
+            "name": "Brand20 Service - Palakkad",
+            "phone": "+91 9812310008"
+          }
+        ]
+      },
+      {
+        "name": "Malappuram",
+        "support": [
+          {
+            "id": 10,
+            "name": "Brand20 Service - Malappuram",
+            "phone": "+91 9812310009"
+          }
+        ]
+      },
+      {
+        "name": "Kozhikode",
+        "support": [
+          {
+            "id": 11,
+            "name": "Brand20 Service - Kozhikode",
+            "phone": "+91 9812310010"
+          }
+        ]
+      },
+      {
+        "name": "Wayanad",
+        "support": [
+          {
+            "id": 12,
+            "name": "Brand20 Service - Wayanad",
+            "phone": "+91 9812310011"
+          }
+        ]
+      },
+      {
+        "name": "Kannur",
+        "support": [
+          {
+            "id": 13,
+            "name": "Brand20 Service - Kannur",
+            "phone": "+91 9812310012"
+          }
+        ]
+      },
+      {
+        "name": "Kasaragod",
+        "support": [
+          {
+            "id": 14,
+            "name": "Brand20 Service - Kasaragod",
+            "phone": "+91 9812310013"
+          }
+        ]
+      }
+    ]
+  }
+]
