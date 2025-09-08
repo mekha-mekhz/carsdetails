@@ -157,11 +157,11 @@
   },
   {
     "id": 2,
-    "brand": "Brand2",
-    "model": "Model2",
+     "brand": "Mercedes-Benz",
+    "model": "GLA",
     "year": 2022,
-    "price": 2200,
-    "image": "https://example.com/car2.jpg",
+    "price": 5500,
+    "image": "https://images.pexels.com/photos/16714005/pexels-photo-16714005.jpeg",
     "type": "SUV",
     "features": [
       "Automatic",
